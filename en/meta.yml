@@ -1,0 +1,11 @@
+title: cd-beginner-python-sushi
+hero_image: images/banner.png
+description: cd-beginner-python-sushi description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2018-06-05"
+steps:
+  - title: Introduction
+  - title: What you will need
+  - title: Step title
