@@ -1,6 +1,6 @@
-title: cd-beginner-python-sushi
+title: Beginner Python Sushi Cards
 hero_image: images/banner.png
-description: cd-beginner-python-sushi description
+description: Learn how to code with Python and make a guessing game
 version: 4
 listed: false
 copyedit: false
@@ -8,4 +8,9 @@ last_tested: "2018-06-05"
 steps:
   - title: Introduction
   - title: What you will need
-  - title: Step title
+  - title: Your first Python program
+  - title: Talking to the user
+  - title: Comparison & if statements
+  - title: Fancy if statements
+  - title: Loops
+  - title: Let's make a game!
