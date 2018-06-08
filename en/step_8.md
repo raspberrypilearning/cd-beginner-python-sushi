@@ -18,7 +18,7 @@ You can use these to make this game:
   * If the player gets their guess right, they get a special winning message
   * If the player gets their 5th guess wrong, the game is over and they lose  
 
-You can play an example of the game at [dojo.soy/py-dice](http://dojo.soy/py-dice).
+You can play an example of the game at [dojo.soy/py-dice](http://dojo.soy/py-dice){:target="blank"}.
 
 You're missing just one thing to be able to write this game: A way to get a random number between 1 and 9. The code to do this is a little beyond what you've covered, so just treat this next bit as a piece of magic. It will be explained in later Sushi Cards.
 
@@ -38,15 +38,6 @@ secret_number = dice(1,9)
 
 + Try to make the game now! Remember to use previous cards. 
 
-If you're stuck, or when you're done, you can check my answer at [dojo.soy/py-guess](http://dojo.soy/py-guess). Don't worry if yours looks very different, as long as it works. Good luck!
+If you're stuck, or when you're done, you can check my answer at [dojo.soy/py-guess](http://dojo.soy/py-guess){:target="blank"}. Don't worry if yours looks very different, as long as it works. Good luck!
 
 --- /challenge ---
-
---- collapse ---
----
-title: What did you think?
----
-
-You've finished this series of Sushi Cards. I'd love to know what you thought of them. If you have a few minutes, please let me know at [dojo.soy/py-beginner](http://dojo.soy/py-beginner)
-
---- /collpase ---

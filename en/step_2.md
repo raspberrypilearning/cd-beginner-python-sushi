@@ -7,7 +7,7 @@ You’re going to need **Python**! You can either use Python online in a web bro
 title: I want to use a web browser to work online
 ---
 
-+ Go to [repl.it](https://repl.it) and type or search for Python3.
++ Go to [repl.it](https://repl.it){:target="blank"} and type or search for Python3.
 
 The editor looks like this:
 
@@ -28,11 +28,11 @@ title: I want to install Python on my computer
 
 Before you can start coding, you'll need to set up your computer to write Python. You'll need to have Python and a text editor installed, and know how to run a Python program.
 
-+ To install Python, go to [dojo.soy/py-setup](http://dojo.soy/py-setup) and click on the **Download Python 3** button. There will be some other numbers after the **3**, but they change too often for me to include them. Don't worry about them.
++ To install Python, go to [dojo.soy/py-setup](http://dojo.soy/py-setup){:target="blank"} and click on the **Download Python 3** button. There will be some other numbers after the **3**, but they change too often for me to include them. Don't worry about them.
 
 + Once the installer has downloaded, start it and click through it, accepting the default choices.
 
-+ Now you need to get a text editor, to write your Python in. We recommend Atom, which you can download from http://atom.io, but you can use another editor if you're more familiar with it. Or just like it better.
++ Now you need to get a text editor, to write your Python in. We recommend Atom, which you can download from [http://atom.io](http://atom.io){:target="blank"}, but you can use another editor if you're more familiar with it. Or just like it better.
 
 + Once you have both of these set up, you're ready to go. You just need to make sure that everything is working and that you know how to run a Python program. Follow these steps:
  1. Make a new folder for your Python Sushi Cards projects.
