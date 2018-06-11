@@ -42,9 +42,17 @@ secret_number = dice(1,9)
 
 --- hint ---
 
-You can keep track of the number of guesses using a variable. You'll need to write some code to change its value after each guess.
+You can keep track of the number of guesses a player has used (or has left, depending on which way you look at it!) using a variable. You'll need to write some code to change its value after each guess.
 
 Then, change the condition in your `while` loop to check whether the player has used up all their guesses.
+
+--- /hint ---
+
+--- hint ---
+
+Tip: Try using variables to store some of the other numbers too, such as the two numbers the player should guess between, and the total number of guesses they are allowed.
+
+Your program will work just fine even if you don't do this, but defining things with variables is usually a good idea. One reason is that it makes your life easier if you decide to change the values later – the only thing you need to change is the value you assign to the variable at the top of your program.
 
 --- /hint ---
 
