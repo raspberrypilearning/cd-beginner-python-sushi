@@ -38,6 +38,20 @@ Before you can start coding, you'll need to set up your computer to write Python
  1. Make a new folder for your Python Sushi Cards projects.
  2. Open your text editor and create a new file. Save it into the folder you just made and call it **beginner_sushi.py**.
  3. Open the command line on your computer (called **command prompt** on Windows and **Terminal** on Mac) and navigate to your folder using the `cd` command.
+ 4. Once you've opened your folder in the command line, you're ready to try running this blank file with this command, entered into the command line:
+  ```bash
+  python3 beginner_sushi.py
+  ```
+  If this has worked, you shouldn't see any messages when you run the command.
+
+### Running a program
+In later cards, you'll be asked to **run** a program.   
+What that means is what you've just done: getting to the folder that has the program file in it and using the **python3** command and its name to make the program do its thing!
+
++ Whenever you make any changes to your code, you will need to **save** the file before running it.
+
+--- /collapse ---
+
 
 --- collapse ---
 ---
@@ -59,20 +73,6 @@ cd /Users/ciara/Documents/sushiProjects/
 ```
 
 Ask a mentor for help if you need it!
-
---- /collapse ---
-
- 4. Once you've opened your folder in the command line, you're ready to try running this blank file with this command, entered into the command line:
-  ```bash
-  python3 beginner_sushi.py
-  ```
-  If this has worked, you shouldn't see any messages when you run the command.
-
-### Running a program
-In later cards, you'll be asked to **run** a program.   
-What that means is what you've just done: getting to the folder that has the program file in it and using the **python3** command and its name to make the program do its thing!
-
-+ Whenever you make any changes to your code, you will need to **save** the file before running it.
 
 --- /collapse ---
 
