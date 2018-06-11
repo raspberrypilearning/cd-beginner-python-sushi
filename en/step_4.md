@@ -12,7 +12,7 @@ Getting the computer to stick your name on the end of `"Hello "` is nice, but wh
 
 + Try running it. You'll need to press the "Enter" key once you've typed in your name.
 
-+ Now, try collecting a number from your user:
++ Now, try collecting a number from your user by changing your code to look like this:
 
 ```python
 name = input("What is your name?")

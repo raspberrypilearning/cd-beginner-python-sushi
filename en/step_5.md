@@ -12,7 +12,7 @@ You do this using special symbols:
 
 --- collapse ---
 ---
-title: Why is there two equals signs together?
+title: Why are there two equals signs together?
 ---
 
 The double-equals `==` is used to **compare** variables, because the single equals is already used **assign** values to them.

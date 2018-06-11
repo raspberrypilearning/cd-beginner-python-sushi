@@ -4,7 +4,7 @@ You’re going to need **Python**! You can either use Python online in a web bro
 
 --- collapse ---
 ---
-title: I want to use a web browser to work online
+title: I will use a web browser to work online
 ---
 
 + Go to [repl.it](https://repl.it){:target="blank"} and type or search for Python3.
@@ -23,7 +23,7 @@ To run the code, you click the "Run" button.
 
 --- collapse ---
 ---
-title: I want to install Python on my computer
+title: I will install Python on my computer
 ---
 
 Before you can start coding, you'll need to set up your computer to write Python. You'll need to have Python and a text editor installed, and know how to run a Python program.
@@ -47,6 +47,8 @@ Before you can start coding, you'll need to set up your computer to write Python
 ### Running a program
 In later cards, you'll be asked to **run** a program.   
 What that means is what you've just done: getting to the folder that has the program file in it and using the **python3** command and its name to make the program do its thing!
+
++ Whenever you make any changes to your code, you will need to **save** the file before running it.
 
 --- /collapse ---
 

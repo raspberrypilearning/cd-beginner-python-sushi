@@ -12,7 +12,7 @@ while(my_number < 100):
     my_number = int(my_number)
 ```
 
-+ Now add a `while` loop to your program.
++ Now add a `while` loop to your program:
 
 ```python
 name = input("What is your name?")
@@ -37,9 +37,11 @@ while(my_number < 100):
 
 --- collapse ---
 ---
-title: Comments
+title: What's that extra text – is it part of the code?
 ---
 
-These are notes for programmers (or you later) that the computer will ignore. In Python, they start with *#* and last to the end of the line.   
+In most programming languages, you can write **comments** in your code.
+
+These are notes for programmers (or you later) that the computer will ignore. In Python, they start with `#` and last to the end of the line.   
 
 --- /collapse ---

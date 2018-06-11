@@ -14,7 +14,7 @@ You can use these to make this game:
   * There is a number (an integer), between 1 and 9, that the program picks in secret
   * The player has 5 guesses to pick the number
   * The game teaches the player the rules
-  * The player is told after each guess whether the number is lower, higher, or right, and how many guesses they have left
+  * The player is told after each guess whether the number is lower, higher, or correct, and how many guesses they have left
   * If the player gets their guess right, they get a special winning message
   * If the player gets their 5th guess wrong, the game is over and they lose  
 
@@ -37,6 +37,18 @@ secret_number = dice(1,9)
 ## Challenge: Make a number guessing game
 
 + Try to make the game now! Remember to use previous cards. 
+
+--- hints ---
+
+--- hint ---
+
+You can keep track of the number of guesses using a variable. You'll need to write some code to change its value after each guess.
+
+Then, change the condition in your `while` loop to check whether the player has used up all their guesses.
+
+--- /hint ---
+
+--- /hints ---
 
 If you're stuck, or when you're done, you can check my answer at [dojo.soy/py-guess](http://dojo.soy/py-guess){:target="blank"}. Don't worry if yours looks very different, as long as it works. Good luck!
 

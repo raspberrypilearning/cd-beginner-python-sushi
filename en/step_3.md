@@ -8,7 +8,7 @@ Time for your first bit of Python. You're going to get the computer to say hello
 print("Hello everyone")
 ```
 
-+ Run this code and see what happens!  
++ Save the file, then run this code and see what happens!  
 
 + Try changing what’s inside the `"` symbols, maybe by adding your name, and running it again.
 

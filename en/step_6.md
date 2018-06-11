@@ -3,6 +3,7 @@
 What if you want to check if the user's number is big enough, and tell them if it's not? Say if it's bigger than 100. Then, either congratulate the user on giving a number that's big enough, or tell them where they went wrong. 
 
 + Try this:
+
 ```python
 name = input("What is your name?")
 my_number = input("Hello "+name+" please pick a number that's bigger than 100")
@@ -14,6 +15,7 @@ if(my_number > 100):
 else:
     print("That number is too small!")
 ```
+
   Here the `else` works like an `if` statement where the condition is "the thing in the if isn't true"
 
 What if you want to tell the user if they're close? Say if they've picked a number over 90?
