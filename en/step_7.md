@@ -1,4 +1,4 @@
-## Loops
+## Keep asking until they get it
 
 You can ask the user to pick a number now, check if it's the right size and, if it isn't, tell them it's not. What if you wanted it to keep going until you got an answer that was the right size? You could write `if` statements inside `if` statements, but what if the user still doesn't give you the right size of number?
   

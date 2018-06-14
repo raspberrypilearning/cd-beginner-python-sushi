@@ -10,7 +10,7 @@ steps:
   - title: What you will need
   - title: Your first Python program
   - title: Talking to the user
-  - title: Comparison & if statements
-  - title: Fancy if statements
-  - title: Loops
+  - title: Comparing and checking things
+  - title: Check for other options
+  - title: Keep asking until they get it
   - title: Let's make a game!

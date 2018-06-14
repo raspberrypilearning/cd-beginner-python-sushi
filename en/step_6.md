@@ -1,4 +1,4 @@
-## Fancy if statements
+## Check for other options
 
 What if you want to check if the user's number is big enough, and tell them if it's not? Say if it's bigger than 100. Then, either congratulate the user on giving a number that's big enough, or tell them where they went wrong. 
 
