@@ -58,6 +58,6 @@ Your program will work just fine even if you don't do this, but defining things 
 
 --- /hints ---
 
-If you're stuck, or when you're done, you can check my answer at [dojo.soy/py-guess](http://dojo.soy/py-guess){:target="blank"}. Don't worry if yours looks very different, as long as it works. Good luck!
+If you're stuck, or when you're done, you can check my answer at [repl.it/@CDF/Number-Guessing-Game](https://repl.it/@CDF/Number-Guessing-Game){:target="blank"}. Don't worry if yours looks very different, as long as it works. Good luck!
 
 --- /challenge ---
