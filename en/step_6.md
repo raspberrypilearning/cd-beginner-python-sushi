@@ -1,4 +1,4 @@
-## Check for other options
+## Check more than one thing
 
 What if you want to check if the user's number is big enough, and let them know if it's not? Let's try to check whether it's bigger than 100. Then, either congratulate the user on giving a number that's big enough, or tell them where they didn't go big enough. 
 
