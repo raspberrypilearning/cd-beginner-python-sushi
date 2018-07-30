@@ -9,8 +9,8 @@ steps:
   - title: Introduction
   - title: What you will need
   - title: Your first Python program
-  - title: Talking to the user
-  - title: Comparing and checking things
-  - title: Check for other options
-  - title: Keep asking until they get it
+  - title: Talk to the user
+  - title: Compare and check things
+  - title: Check more than one thing
+  - title: Keep asking
   - title: Let's make a game!
