@@ -1,4 +1,4 @@
-## Comparing and checking things
+## Compare and check things
 
 You can ask Python to compare one number to another number. This can be really handy for writing games (e.g. does the player have as much money as this costume costs?). 
 
