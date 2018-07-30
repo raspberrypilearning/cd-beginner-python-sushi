@@ -1,26 +1,26 @@
 ## Let's make a game!
 
 So now you've learned about:
-  * `print` statements: Talking to our user
-  * variables: A way to get our program to remember and update values
-  * strings: Pieces of text
-  * `input`: How to get information from our user
-  * maths: How to do maths with a number
-  * integers: Numbers for doing maths with  
-  * `if` statements: Do something based on a condition
-  * `while` loops: Keep doing something until a condition isn't true
+  * `print` statements for talking to our user
+  * variables, which are a way to get our program to remember and update values
+  * strings, which are pieces of text
+  * `input` for getting information from our user
+  * maths: how to do maths with a number
+  * integers, which are numbers for doing maths with  
+  * `if` statements, to make your code do something based on a condition
+  * `while` loops, to make your code keep doing something until a condition isn't true
 
-You can use these to make this game:
+You can use these tools and commands to make this game:
   * There is a number (an integer), between 1 and 9, that the program picks in secret
   * The player has 5 guesses to pick the number
   * The game teaches the player the rules
   * The player is told after each guess whether the number is lower, higher, or correct, and how many guesses they have left
   * If the player gets their guess right, they get a special winning message
-  * If the player gets their 5th guess wrong, the game is over and they lose  
+  * If the player gets their fifth guess wrong, the game is over and they lose  
 
 You can play an example of the game at [dojo.soy/py-dice](http://dojo.soy/py-dice){:target="blank"}.
 
-You're missing just one thing to be able to write this game: A way to get a random number between 1 and 9. The code to do this is a little beyond what you've covered, so just treat this next bit as a piece of magic. It will be explained in later Sushi Cards.
+You're missing just one thing to be able to write this game: a way to get a random number between 1 and 9. The code to do this is a little beyond what you've covered, but you can use it right now without understanding exactly how it works. It will be explained in later Sushi Cards.
 
 + Put this as the **first line** in your program:
 ```python
@@ -34,9 +34,11 @@ secret_number = dice(1,9)
 
 --- challenge ---
 
-## Challenge: Make a number guessing game
+## Challenge: make a number guessing game
 
-+ Try to make the game now! Remember to use previous cards. 
++ Try to make the game now! Remember to use previous cards.
+
+Good luck!
 
 --- hints ---
 
@@ -44,20 +46,20 @@ secret_number = dice(1,9)
 
 You can keep track of the number of guesses a player has used (or has left, depending on which way you look at it!) using a variable. You'll need to write some code to change its value after each guess.
 
-Then, change the condition in your `while` loop to check whether the player has used up all their guesses.
+Then write the right condition for your `while` loop to check whether the player has used up all their guesses.
 
 --- /hint ---
 
 --- hint ---
 
-Tip: Try using variables to store some of the other numbers too, such as the two numbers the player should guess between, and the total number of guesses they are allowed.
+Try using variables to store some of the other numbers too, such as the two numbers the player should guess between, and the total number of guesses they are allowed.
 
-Your program will work just fine even if you don't do this, but defining things with variables is usually a good idea. One reason is that it makes your life easier if you decide to change the values later – the only thing you need to change is the value you assign to the variable at the top of your program.
+Your program will work just fine even if you don't do this, but defining things with variables is usually a good idea. One reason is that it makes your life easier if you decide to change these values later: then the only thing you need to change is the values you assign to the variables at the top of your program, and you don't have to change all the places where you've used their values.
 
 --- /hint ---
 
 --- /hints ---
 
-If you're stuck, or when you're done, you can check my answer at [repl.it/@CDF/Number-Guessing-Game](https://repl.it/@CDF/Number-Guessing-Game){:target="blank"}. Don't worry if yours looks very different, as long as it works. Good luck!
+If you're stuck, or when you're done, you can check my answer at [repl.it/@CDF/Number-Guessing-Game](https://repl.it/@CDF/Number-Guessing-Game){:target="blank"}. Don't worry if yours looks very different — that doesn't matter as long as it works.
 
 --- /challenge ---
