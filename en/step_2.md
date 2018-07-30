@@ -65,7 +65,7 @@ A path looks something like this: `/Users/ciara/Documents/sushiProjects/`. Each 
 
 How you find out what the path is will vary depending on your computer, but you can find it by opening the folder you made in a file explorer.
 
-Once you have the path, you use it with the `cd` command to navigate to the folder in a command line window. To run a command in the command line, you need to press the <kbd>Return</kbd> key once you've typed it in.
+Once you have the path, you use it with the `cd` command to navigate to the folder in a command line window. To run a command in the command line, you need to press the <kbd>Enter</kbd> key once you've typed it in.
 
 Here's how the command looks for my example:
 
