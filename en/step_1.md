@@ -1,7 +1,7 @@
 ## Introduction
 
 
-You're going to learn programming and how to build a game with a language called Python.
+You're going to learn programming by building a game with a language called Python.
 
 **Did you know?**
 Websites like YouTube and Instagram are built using Python.
@@ -26,7 +26,7 @@ You will make a guessing game in which the computer picks a number between 1 and
 + Basic string concatenation (including using `str()` to convert numbers)
 + Storing text and numbers in variables
 + Getting user input (including `int()` to convert numbers)
-+ Simple math operations
++ Simple maths operations
 + `If`/`elif`/`else` statements and comparison operators 
 + While loops
 
