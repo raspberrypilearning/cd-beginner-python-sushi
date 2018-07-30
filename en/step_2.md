@@ -56,7 +56,7 @@ What that means is what you've just done: getting to the folder that has the pro
 
 --- collapse ---
 ---
-title: I'm installing Python on my computer and I don't know how to use commands on the command line!
+title: I'm installing Python on my computer, and I don't know how to use the command line!
 ---
 
 To navigate to a folder on the command line, you'll first need to know the **path** to that folder.
