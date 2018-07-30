@@ -1,4 +1,4 @@
-## Talking to the user
+## Talk to the user
 
 Getting the computer to stick your name on the end of `"Hello "` is nice, but why not just write `"Hello [my name]"`? Because you don't have to know what's going to be stored in a **variable** when you write the program. You can even ask the user of the program to tell you what to put into it. 
 
