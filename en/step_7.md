@@ -1,10 +1,10 @@
 ## Keep asking until they get it
 
-You can ask the user to pick a number now, check if it's the right size and, if it isn't, tell them it's not. What if you wanted it to keep going until you got an answer that was the right size? You could write `if` statements inside `if` statements, but what if the user still doesn't give you the right size of number?
+You can ask the user to pick a number now, check if it's the right size and, and if it isn't, tell them it's not. What if you wanted to keep your program going until you got an answer that was the right size?
   
-You need a way to ask the question over and over until you get the right kind of answer. The way to do this in computer programming is called a **loop**. You're going to use one called the `while` loop.
+You need a way to ask your question over and over until you get the right kind of answer. The way to do this in computer programming is called a **loop**. You're going to use one called the `while` loop.
 
-A `while` loop is a bit like an `if` statement: it has code inside it that only runs if the condition in brackets is true. The difference is that a `while` loop runs over and over, until its condition is false. You have to make sure that there is always a way out of your `while` loops, or they'll run forever! It looks like this:
+A `while` loop is a bit like an `if` statement: it has code inside it that only runs if the condition in brackets is true. The difference is that a `while` loop runs over and over, until its condition is false. You have to make sure that there always is a way out of your `while` loop, otherwise it will run forever! It looks like this:
 
 ```python
 while(my_number < 100):
@@ -40,8 +40,8 @@ while(my_number < 100):
 title: What's that extra text – is it part of the code?
 ---
 
-In most programming languages, you can write **comments** in your code.
+The extra lines of text that start with a `#` symbol are **commments**.
 
-These are notes for programmers (or you later) that the computer will ignore. In Python, they start with `#` and last to the end of the line.   
+In most programming languages, you can write comments in your code. These are notes about what the code does that the computer will ignore. You can write them for yourself as reminders, or for other programmers who want to use your code. In Python, comments start with `#` and last to the end of the line.   
 
 --- /collapse ---
