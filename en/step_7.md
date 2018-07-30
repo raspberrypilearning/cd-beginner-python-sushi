@@ -1,4 +1,4 @@
-## Keep asking until they get it
+## Keep asking
 
 You can ask the user to pick a number now, check if it's the right size and, and if it isn't, tell them it's not. What if you wanted to keep your program going until you got an answer that was the right size?
   
