@@ -2,8 +2,8 @@ title: Beginner Python Sushi Cards
 hero_image: images/banner.png
 description: Learn how to code with Python and make a guessing game
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2018-06-05"
 steps:
   - title: Introduction
