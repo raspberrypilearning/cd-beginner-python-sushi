@@ -1,6 +1,6 @@
 ## Keep asking
 
-You can ask the user to pick a number now, check if it's the right size and, and if it isn't, tell them it's not. What if you wanted to keep your program going until you got an answer that was the right size?
+You can ask users to pick a number now, check if it's the right size and, and if it isn't, tell them it's not. What if you wanted to keep your program going until you got an answer that was the right size?
   
 You need a way to ask your question over and over until you get the right kind of answer. The way to do this in computer programming is called a **loop**. You're going to use one called the `while` loop.
 
@@ -12,7 +12,8 @@ while(my_number < 100):
     my_number = int(my_number)
 ```
 
-+ Now add a `while` loop to your program:
+--- task ---
+Now add a `while` loop to your program, to keep asking users for a number until they give that's lareger than 100.
 
 ```python
 name = input("What is your name?")
@@ -20,9 +21,9 @@ my_number = 0
 
 # Loop as long as "my_number" is less than 100
 while(my_number < 100):
-    # Ask the user for a number
+    # Ask users for a number
     my_number = input("Hello "+name+" please pick a number that's bigger than 100")
-    # Convert the user's answer from a string to an integer
+    # Convert users' answer from a string to an integer
     my_number = int(my_number)
     print("Your number is "+str(my_number))
     # Check if the number is bigger than 100
@@ -34,6 +35,7 @@ while(my_number < 100):
         print("That number is too small! Please try again!")
     # If my_number is smaller than 100 at this point, loop again
 ```
+--- /task ---
 
 --- collapse ---
 ---
