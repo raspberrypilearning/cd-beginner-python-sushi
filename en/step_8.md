@@ -35,7 +35,7 @@ secret_number = dice(1,9)
 ```
 
 --- task ---
-Start a new Python program and to make the game now! 
+Start a new Python program and try to make the game now! 
 --- /task ---
 
 Remember to use what you've learned on previous steps of this project.
