@@ -63,5 +63,3 @@ Your program will work just fine even if you don't do this, but defining things 
 --- /hints ---
 
 If you're stuck, or when you're done, you can check my answer at [dojo.soy/python-ans](http://dojo.soy/python-ans){:target="blank"}. Don't worry if yours looks very different — that doesn't matter as long as it works.
-
---- /challenge ---
