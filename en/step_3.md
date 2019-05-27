@@ -2,39 +2,58 @@
 
 Time for your first bit of Python. You're going to get the computer to say hello to everyone. 
 
-+ Type this into the code file you've created:
+--- task ---
+Type this into Trinket:
 
 ```python
 print("Hello everyone")
 ```
+--- /task ---
 
-+ Save the file, and then run the code and see what happens! 
+--- task ---
+Run the code and see what happens! 
+--- /task ---
 
-+ Try changing what’s inside the `"` symbols, maybe by adding your name, and running it again (remember to save the file first).
+--- task ---
+Try changing what’s inside the `"` symbols, maybe by adding your name, and running it again.
+--- /task ---
 
-+ Now add another line: Try making your code look like this:
+--- task ---
+Now add another line, below the existing one:
 
 ```python
 print("Hello everyone")
 print("The Code, it's calling to you. Just let it in.")
 ```
 
-+ Run it again. See how the text (called a **string**) from the second `print` is on a new line? This is because the instruction the computer gets when you tell it to `print` is:
+--- /task ---
+
+--- task ---
+Run it again. 
+--- /task ---
+
+See how the text (called a **string**) from the second `print` is on a new line? This is because the instruction the computer gets when you tell it to `print` is:
      1. Read the code in the brackets and figure out the result
      2. Once you’ve figured out what it says, `print` that out on the screen
      3. Put an invisible “start a new line” instruction at the end
 
 Why does the computer need to figure out what the code in those brackets says? It's because the computer can put that string together from parts you give it.  
 
-+ Try it out! Use the following code, but put your name in between the `"` symbols where it says `"my name"`.
+Try it out! 
+
+--- task ---
+Use the following code, but put your name in between the `"` symbols where it says `"my name"`.
 
 ```python
 name = "my name"
 print("Hello "+name)
 print("The Code, it's calling to you. Just let it in.")
 ```
+--- /task ---
 
-+ Now save and run your code again and look at the result!
+--- task ---
+Now run your code again and look at the result!
+--- /task ---
 
 --- collapse ---
 ---
