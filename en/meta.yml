@@ -2,7 +2,7 @@ title: Guess the number
 hero_image: images/banner.png
 description: Learn how to code with Python and make a guessing game
 version: 4
-listed: false
+listed: true
 copyedit: true
 last_tested: "2018-06-05"
 steps:
