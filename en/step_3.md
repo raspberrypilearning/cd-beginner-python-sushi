@@ -3,22 +3,29 @@
 Time for your first bit of Python. You're going to get the computer to say hello to everyone. 
 
 --- task ---
+
 Type this into Trinket:
 
 ```python
 print("Hello everyone")
 ```
+
 --- /task ---
 
 --- task ---
+
 Run the code and see what happens! 
+
 --- /task ---
 
 --- task ---
+
 Try changing what’s inside the `"` symbols, maybe by adding your name, and running it again.
+
 --- /task ---
 
 --- task ---
+
 Now add another line, below the existing one:
 
 ```python
@@ -29,7 +36,9 @@ print("The Code, it's calling to you. Just let it in.")
 --- /task ---
 
 --- task ---
+
 Run it again. 
+
 --- /task ---
 
 See how the text (called a **string**) from the second `print` is on a new line? This is because the instruction the computer gets when you tell it to `print` is:
@@ -42,6 +51,7 @@ Why does the computer need to figure out what the code in those brackets says? I
 Try it out! 
 
 --- task ---
+
 Use the following code, but put your name in between the `"` symbols where it says `"my name"`.
 
 ```python
@@ -49,10 +59,13 @@ name = "my name"
 print("Hello "+name)
 print("The Code, it's calling to you. Just let it in.")
 ```
+
 --- /task ---
 
 --- task ---
+
 Now run your code again and look at the result!
+
 --- /task ---
 
 --- collapse ---

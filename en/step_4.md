@@ -3,6 +3,7 @@
 Getting the computer to stick your name on the end of `"Hello "` is nice, but why not just write `"Hello [my name]"`? Because you don't have to know what's going to be stored in a **variable** when you write the program. You can even ask the user of the program to tell you what to put into it. 
 
 --- task ---
+
 Update your Python program so that it asks the user for the text to put in the variable:
   
 ```python
@@ -10,13 +11,17 @@ name = input("What is your name?")
 print("Hello "+name)
 print("The Code, it's calling to you. Just let it in.")
 ```
+
 --- /task ---
 
 --- task ---
+
 Try running it. You'll need to press the <kbd>Enter</kbd> key once you've typed in your name.
+
 --- /task ---
 
 --- task ---
+
 Now, try collecting a number from your user by changing your code to look like this:
 
 ```python
@@ -24,17 +29,21 @@ name = input("What is your name?")
 my_number = input("Hello "+name+", please pick a number")
 print("Your number is "+my_number)
 ```
+
 --- /task ---
 
 Notice that you can use the `+` on both sides of a variable!
 
 --- task ---
+
 Run this program, answer its questions, and watch what happens.
+
 --- /task ---
 
 What if you want to add another number to the number stored in your new variable? Let's try that.
 
 --- task ---
+
 Add a line to your program that will add `1` to the `my_number` variable:
 
 ```python
@@ -43,6 +52,7 @@ my_number = input("Hello "+name+" please pick a number")
 my_number = int(my_number) + 1
 print("Your number is "+str(my_number))
 ```
+
 --- /task ---
 
 --- collapse ---
