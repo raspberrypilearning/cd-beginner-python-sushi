@@ -34,6 +34,7 @@ Python needs these spaces to understand your program!
 Now, put that little bit of code together with your program from the last card. 
 
 --- task ---
+
 Change the program so it looks like this:
     
 ```python
@@ -45,8 +46,11 @@ print("Your number is "+str(my_number))
 if(my_number > 100):
     print("That's a big number!")
 ```
+
 --- /task ---
 
 --- task ---
+
 Now run it and try entering different numbers above and below 100 to see what happens. What would happen if you entered 100 exactly?
+
 --- /task ---

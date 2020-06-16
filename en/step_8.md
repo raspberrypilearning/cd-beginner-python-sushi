@@ -23,19 +23,25 @@ You can play an example of the game at [dojo.soy/py-dice](http://dojo.soy/py-dic
 You're missing just one thing to be able to write this game: a way to get a random number between 1 and 9. The code to do this is a little beyond what you've covered, but you can use it right now without understanding exactly how it works.
 
 --- task ---
+
 Put this as the **first line** in your program:
+
 ```python
 from random import randint as dice
 ```
+
 --- /task ---
 
 Now, anywhere you want to use a random number between 1 and 9, just use `dice(1,9)`. For example:
+
 ```python
 secret_number = dice(1,9)
 ```
 
 --- task ---
+
 Start a new Python program and try to make the game now! 
+
 --- /task ---
 
 Remember to use what you've learned on previous steps of this project.
