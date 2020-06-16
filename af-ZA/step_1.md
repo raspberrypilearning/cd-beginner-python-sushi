@@ -17,6 +17,7 @@ You will make a guessing game in which the computer picks a number between 1 and
 ---
 title: What you will learn
 ---
+
 + Printing text to the screen
 + Basic string concatenation (including using `str()` to convert numbers)
 + Storing text and numbers in variables
@@ -31,10 +32,14 @@ title: What you will learn
 ---
 title: What you will need
 ---
+
 ### Hardware
 An internet-connected computer
+
 ### Software
-This project uses Python 3. We recommend using [Trinket](https://trinket.io/), which allows you to write Python code online. --- /collapse ---
+This project uses Python 3. We recommend using [Trinket](https://trinket.io/), which allows you to write Python code online.
+
+--- /collapse ---
 
 
 
