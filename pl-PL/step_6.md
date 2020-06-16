@@ -3,17 +3,22 @@
 What if you want to check if the user's number is big enough, and let them know if it's not?
 
 You can combine conditions by using `and` and `or`. So you could write code like this:
+
 ```python
 if(my_number >= 20 and my_number < 30):
     print("That number is in the twenties!")
 ```
+
 Or, for example:
+
 ```python
 if(food == "Cake" or food == "Chocolate" or food == "Pie"):
     print("Sounds tasty!")
 ```
 
---- task --- Check whether the user's number is bigger than 100. Then, either congratulate the user on giving a number that's big enough, or tell them where they didn't pick a number big enough.
+--- task ---
+
+Check whether the user's number is bigger than 100. Then, either congratulate the user on giving a number that's big enough, or tell them where they didn't pick a number big enough.
 
 Try this:
 
@@ -28,6 +33,7 @@ if(my_number > 100):
 else:
     print("That number is too small!")
 ```
+
 --- /task ---
 
 The code inside the `else` statement runs whenever the condition in the bracket of the `if` statement _isn't_ true.
@@ -45,7 +51,9 @@ elif(my_number > 90):
     print("Almost there!")
 ```
 
---- task --- Now add those lines into the rest of your program. Notice that the `elif` statements has to come between the `if` and the `else` statements.
+--- task ---
+
+Now add those lines into the rest of your program. Notice that the `elif` statements has to come between the `if` and the `else` statements.
 
 ```python
 name = input("What is your name?")
@@ -60,4 +68,5 @@ elif(my_number > 90):
 else:
     print("That number is too small!")
 ```
+
 --- /task ---
