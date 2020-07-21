@@ -1,15 +1,15 @@
-## Check more than one thing
+## एक से अधिक स्ट्रिंग (string) की जांच करें
 
-What if you want to check if the user's number is big enough, and let them know if it's not?
+क्या होगा यदि आप जांचना चाहते हैं कि उपयोगकर्ता की संख्या पर्याप्त रूप से बड़ी है या नहीं, और फिर उन्हें बताएं अगर नहीं है तो?
 
-You can combine conditions by using `and` and `or`. So you could write code like this:
+आप `and` और ` or ` का उपयोग करके ब्रैकेट में लिखी जाने वाली शर्तों को जोड़ सकते हैं । तो आप इस तरह कोड लिख सकते हैं:
 
 ```python
 if(my_number >= 20 and my_number < 30):
     print("That number is in the twenties!")
 ```
 
-Or, for example:
+या, उदाहरण के लिए:
 
 ```python
 if(food == "Cake" or food == "Chocolate" or food == "Pie"):
@@ -18,9 +18,9 @@ if(food == "Cake" or food == "Chocolate" or food == "Pie"):
 
 --- task ---
 
-Check whether the user's number is bigger than 100. Then, either congratulate the user on giving a number that's big enough, or tell them where they didn't pick a number big enough.
+जांचें कि उपयोगकर्ता की संख्या 100 से अधिक है या नहीं। फिर, या तो उपयोगकर्ता को सही नंबर देने के लिए बधाई दें जो कि काफी बड़ा है, या उन्हें बताएं कि उन्होंने नंबर को सही नहीं चुना यानी की बड़ा नहीं चुना है।
 
-Try this:
+इसे इस्तेमाल करके देखें:
 
 ```python
 name = input("What is your name?")
@@ -36,24 +36,24 @@ else:
 
 --- /task ---
 
-The code inside the `else` statement runs whenever the condition in the bracket of the `if` statement _isn't_ true.
+`else` स्टेटमेंट के अंदर का कोड तब चलता है जब `if` स्टेटमंट के ब्रैकेट के अंदर की शर्त जब सच _नहीं_ होती।
 
-### More conditions
+### और शर्तें
 
-What if you want to tell the user when they're close, for example if they've picked a number over `90`?
+क्या होगा यदि आप उपयोगकर्ता को संख्या के आसपास होने पर बताना चाहते हैं, उदाहरण के लिए यदि उन्होंने `90` से अधिक नंबर लिया है?
 
-Then you can use an `elif` statement! That name is the words 'else' and 'if' stuck together. The code inside an `elif` statements runs only when the condition in the `if` statement _is not_ true **and** the condition in the `elif` statement's brackets _is_ true.
+तब आप एक `elif` का उपयोग कर सकते हैं! यह शब्द else और if को साथ जोड़ने से बनता है। `elif` स्टेटमेंट के अंदर का कोड केवल तभी चलता है जब `if` स्टेटमेंट के अंदर की शर्त सच _नहीं हो_ **और ** `elif` स्टेटमेंट के ब्रैकेट की शर्त सच _हो_।
 
-Here's what you add to get the program to tell the user they're close:
+यहाँ पे है वो कोड जो आपको प्रोग्राम में जोड़ेंगे तो वह उपयोगी को यह बता सके की वो उस संख्या के आसपास हैं:
 
 ```python
 elif(my_number > 90):
-    print("Almost there!")
+    print("Almost there!"
 ```
 
 --- task ---
 
-Now add those lines into the rest of your program. Notice that the `elif` statements has to come between the `if` and the `else` statements.
+अब उन पँक्तियों को अपने बाकी प्रोग्राम में जोड़ें। ध्यान दें कि `elif` स्टेटमेंट को `if` और `else` स्टेटमेंट के बीच में आना होता है।
 
 ```python
 name = input("What is your name?")
