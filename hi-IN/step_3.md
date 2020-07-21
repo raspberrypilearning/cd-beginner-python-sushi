@@ -1,10 +1,10 @@
-## Your first Python program
+## आपका पहला Python प्रोग्राम (program)
 
-Time for your first bit of Python. You're going to get the computer to say hello to everyone.
+अब समय है आपके पहले Python की शुरुआत का। अब आप देखेंगे की कंप्यूटर द्वारा सभी को hello कैसे कहें
 
 --- task ---
 
-Type this into Trinket:
+Trinket में ये टाइप करें:
 
 ```python
 print("Hello everyone")
@@ -14,19 +14,19 @@ print("Hello everyone")
 
 --- task ---
 
-Run the code and see what happens!
+कोड को Run करें और देखें कि क्या होता है!
 
 --- /task ---
 
 --- task ---
 
-Try changing what’s inside the `"` symbols, maybe by adding your name, and running it again.
+`"` के अंदर जो भी है उसे बदलने का प्रयास करें, शायद अपना नाम जोड़कर, और इसे फिर से Run करें।
 
 --- /task ---
 
 --- task ---
 
-Now add another line, below the existing one:
+अब अपनी पहले वाली पंक्ति के नीचे एक और पंक्ति जोड़ें:
 
 ```python
 print("Hello everyone")
@@ -37,23 +37,23 @@ print("The Code, it's calling to you. Just let it in.")
 
 --- task ---
 
-Run it again.
+फिर से Run करें।
 
 --- /task ---
 
-See how the text (called a **string**) from the second `print` is on a new line? This is because the instruction the computer gets when you tell it to `print` is:
+देखें कि कैसे टेक्स्ट (जिसे **स्ट्रिंग** कहा जाता है) जो दूसरे ` प्रिंट `में से है वह एक नई लाइन पर है? ऐसा इसलिए है क्योंकि जब आप `print` करते हैं तब कंप्यूटर को यह निर्देश मिलता है कि:
 
-     1. Read the code in the brackets and figure out the result
-     2. Once you’ve figured out what it says, `print` that out on the screen
-     3. Put an invisible “start a new line” instruction at the end
+     1. ब्रैकेट में दिया गया कोड पढ़ें और परिणाम का पता लगाएं।
+     2. एक बार जब आप यह पता लगा लेते हैं कि वह क्या कह रहा है, उसे स्क्रीन पर प्रिंट करे 
+     3. अंत में एक अदृश्य "नई पंक्ति शुरू करें" ("start a new line") का निर्देश डालें
 
-Why does the computer need to figure out what the code in those brackets says? It's because the computer can put that string together from parts you give it.
+कंप्यूटर को यह पता लगाने की आवश्यकता क्यों है कि उन ब्रैकेट में कोड क्या कह रहा है? ऐसा इसलिए है क्योंकि कंप्यूटर उस स्ट्रिंग को उन हिस्सों को एक साथ रख सकता है जिन्हें आप ब्रैकेट में देते हैं।
 
-Try it out!
+इसे आज़माएँ!
 
 --- task ---
 
-Use the following code, but put your name in between the `"` symbols where it says `"my name"`.
+निम्नलिखित कोड का उपयोग करें, लेकिन अपना नाम `"` चिन्ह के बीच रखें जहाँ वह कहते हैं `"my name"`।
 
 ```python
 name = "my name"
@@ -65,28 +65,28 @@ print("The Code, it's calling to you. Just let it in.")
 
 --- task ---
 
-Now run your code again and look at the result!
+अब अपना कोड फिर से Run करें और परिणाम देखें!
 
 --- /task ---
 
 --- collapse ---
 ---
-title: The space after "Hello"
+title: "Hello" के बाद स्पेस
 ---
 
-You have to include a space after the "Hello", otherwise you'll just get "Hellomy name", because Python doesn't know what English looks like!
+आपको "Hello" के बाद एक स्पेस लगाना होगा, नही तो आपको बस "Hellomy name " मिलेगा, क्योंकि Python को यह नहीं पता है कि अंग्रेजी असलियत में कैसी होती है!
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: How does the new code work?
+title: नया कोड कैसे काम करता है?
 ---
 
-You made a **variable** called `name`. A variable is like a box inside the computer with a label on it. You can put anything you want in it. Then, you can use the label to get Python to go fetch the thing that’s in the box and use it in your code.
+आपने एक **वेरिएबल** बनाया जिसे हम `name` कह रह हैं। एक वेरिएबल कंप्यूटर के अंदर एक बॉक्स की तरह होता है, जिस पर एक लेबल होता है। आप इसमें अपनी इच्छानुसार कुछ भी डाल सकते हैं। फिर, आप उस लेबल द्वारा Python का इस्तेमाल करके उस बॉक्स के अंदर जो भी है मँगवा सकते हैं और उसे अपने कोड में उपयोग कर सकते हैं।
 
-+ So first, you created the `name` variable and stored `"my name"` in it.
++ तो पहले, आपने `name ` वेरिएबल बनाया और फिर उसमे `"my name"` स्टोर किया।
 
-+ On the next line, you used the `+` symbol followed by the variable to attach your name after the greeting at the end of the string.
++ अगली पंक्ति में, आपने `+` चिन्ह के बाद वेरिएबल का उपयोग किया जिससे की आपका नाम अभिवादन के बाद स्ट्रिंग के अंत में जुड़ जाए।
 
 --- /collapse ---
