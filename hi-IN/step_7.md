@@ -1,10 +1,10 @@
-## Keep asking
+## पूछते रहिये
 
-You can ask users to pick a number now, check if it's the right size and, and if it isn't, tell them it's not. What if you wanted to keep your program going until you got an answer that was the right size?
+आप उपयोगकर्ताओं से एक नंबर लेने के लिए कह सकते हैं, जांच लें कि क्या वह सही है और यदि नहीं है, तो उन्हें बताएं कि वो सही नहीं है। क्या होगा यदि आप अपने प्रोग्राम को तब तक चलने देना चाहते हैं जब तक आपको सही जवाब नहीं मिल जाता?
 
-You need a way to ask your question over and over until you get the right kind of answer. The way to do this in computer programming is called a **loop**. You're going to use one called the `while` loop.
+जब तक आपको सही तरह का जवाब नहीं मिल जाता, तब तक आपको अपना सवाल बार-बार पूछते रहने का तरीका चाहिए। कंप्यूटर प्रोग्रामिंग में इसे करने का तरीका **लूप (Loop)** कहा जाता है। आप `while` नामक लूप का उपयोग करने जा रहे हैं।
 
-A `while` loop is a bit like an `if` statement: it has code inside it that only runs if the condition in brackets is true. The difference is that a `while` loop runs over and over, until its condition is false. You have to make sure that there always is a way out of your `while` loop, otherwise it will run forever! It looks like this:
+एक `while` लूप थोड़ा सा `if` स्टेटमेंट जैसा होता है: उस स्टेटमेंट के अंदर कोड तभी चलता है जब ब्रैकेट में दी गयी शर्त सच होती है। अंतर बस यह है कि एक `while` लूप चलता ही रहता है, जब तक कि ब्रैकेट में दी गयी शर्त झूठी न हो जाये। आपको यह ध्यान रखना होगा कि आपके पास हमेशा `while` लूप से बाहर आने का तरीका हो, अन्यथा यह हमेशा के लिए Run होता रहेगा! यह इस तरह दिखता है:
 
 ```python
 while(my_number < 100):
@@ -14,38 +14,38 @@ while(my_number < 100):
 
 --- task ---
 
-Now add a `while` loop to your program, to keep asking users for a number until they give that's lareger than 100.
+अब अपने प्रोग्राम में `while` लूप जोड़े, जिससे की वह उपयोगकर्ताओं को एक संख्या के लिए पूछते रहे जब तक कि वे 100 से ज्यादा की संख्या नहीं देते।
 
 ```python
 name = input("What is your name?")
 my_number = 0
 
-# Loop as long as "my_number" is less than 100
+# तब तक लूप करे जब तक  "my_number" 100 से काम न हो 
 while(my_number < 100):
-    # Ask users for a number
+    #  उपयोगकर्ता से संख्या पूछे 
     my_number = input("Hello "+name+" please pick a number that's bigger than 100")
-    # Convert users' answer from a string to an integer
+    # उपयोगकर्ता द्वारा दिए गए उत्तर को स्ट्रिंग् से इन्टिजर में बदलें 
     my_number = int(my_number)
     print("Your number is "+str(my_number))
-    # Check if the number is bigger than 100
+    # जांचे की संख्या 100 से बड़ी है क्या 
     if(my_number > 100):
         print("That's a big number!").
     elif(my_number > 90):
         print("Almost there! Try again!")
     else:
         print("That number is too small! Please try again!")
-    # If my_number is smaller than 100 at this point, loop again
+    # अगर my_number 100 से छोटा है, तो फिर से लूप करें
 ```
 
 --- /task ---
 
 --- collapse ---
 ---
-title: What's that extra text – is it part of the code?
+title: वह अतिरिक्त टेक्स्ट क्या है - क्या वह कोड का हिस्सा है?
 ---
 
-The extra lines of text that start with a `#` symbol are **commments**.
+टेक्स्ट की लाइनें जो `#` चिन्ह से शुरू होती हैं वह **कमैंट्स (Comments)** हैं।
 
-In most programming languages, you can write comments in your code. These are notes about what the code does that the computer will ignore. You can write them for yourself as reminders, or for other programmers who want to use your code. In Python, comments start with `#` and last to the end of the line.
+अधिकांश प्रोग्रामिंग भाषाओं में, आप अपने कोड में कमैंट्स लिख सकते हैं। यह ये बताने के लिए होते हैं कि कोड का क्या काम है, इन्हे कंप्यूटर अनदेखा कर देता है। आप उन्हें अपने लिए रिमाइंडर (reminder) के रूप में, या अन्य प्रोग्रामर के लिए लिख सकते हैं जो आपके कोड का उपयोग करना चाहते हैं। Python में, कमेंट्स ` # ` से शुरू होते हैं व पंक्ति के अंत में खत्म होते हैं।
 
 --- /collapse ---
