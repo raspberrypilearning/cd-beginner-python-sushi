@@ -1,0 +1,18 @@
+---
+title: कौन सा अंक है अंदाजा लगाओ
+hero_image: images/banner.png
+description: सीखें कि Python के साथ कोड कैसे करें और एक अंदाज़ा लगाने का खेल बनाएं
+version: 4
+listed: true
+copyedit: true
+last_tested: "2018-06-05"
+steps:
+  - title: परिचय
+  - title: अपने प्रोग्राम को run करें
+  - title: आपका पहला Python प्रोग्राम (program)
+  - title: उपयोगकर्ता से बात करें
+  - title: चीजों की तुलना और जांच करें
+  - title: एक से अधिक स्ट्रिंग (string) की जांच करें
+  - title: पूछते रहिये
+  - title: "चुनौती: चलिए एक खेल बनाते हैं!"
+    challenge: true
