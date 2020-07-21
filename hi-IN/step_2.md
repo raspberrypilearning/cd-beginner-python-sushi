@@ -1,5 +1,5 @@
-### Running your program
+### अपने प्रोग्राम को run करें
 
-In later cards, you'll be asked to **run** a program. You can do this in Trinket by clicking on the 'Run' button:
+बाद के पत्तों में, आपको प्रोग्राम **Run** करने के लिए कहा जाएगा। आप Trinket में Run बटन पर क्लिक करके यह कर सकते हैं:
 
-![The Trinket run button](images/runButton.png)
+![Trinket Run बटन](images/runButton.png)
