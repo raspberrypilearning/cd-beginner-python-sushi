@@ -1,41 +1,41 @@
-## Compare and check things
+## चीजों की तुलना और जांच करें
 
-You can ask Python to compare one number to another number. This can be really handy for writing games (e.g. do players have as much money as this costume costs?).
+आप Python को एक नंबर से दूसरे नंबर की तुलना करने के लिए इस्तेमाल कर सकते हैं। यह गेम लिखने के लिए काफ़ी आसान हो सकता है (जैसे खिलाड़ियों के पास किसी पोशाक की कीमत जितना पैसा है या नहीं?)।
 
-You do this using special symbols:
-* `a > b` checks whether `a` is bigger than `b`
-* `a < b` checks whether `a` is smaller than `b`
-* `a == b` checks whether `a` is the same as `b`
-* `a != b` checks whether `a` is not the same as `b`
-* `a >= b` checks whether `a` is bigger than, or the same size as, `b`
-* `a <= b` checks whether `a` is smaller than, or the same size as, `b`
+आप विशेष चिन्हों का उपयोग कर ऐसा करते हैं:
+* `a > b` जाँच करता है कि क्या `a`, `b ` से बड़ा है
+* `a < b` जाँच करता है कि क्या `a`, `b ` से छोटा है
+* `a b` जाँच करता है कि क्या `a` और `b `बराबर हैं
+* `a b` जाँच करता है कि क्या `a` और `b` बराबर नहीं हैं
+* `a >= b` जाँच करता है कि क्या `a, ` ` b `से बड़ा, या बराबर है
+* `a <= b` जाँच करता है कि क्या `a`, `b ` से छोटा या बराबर है
 
 --- collapse ---
 ---
-title: Why are there two equals signs together?
+title: दो समान के चिन्ह एक साथ क्यों हैं?
 ---
 
-The two equal signs `==` are used to **compare** variables, because the single equal sign is already used to **assign** values to variables.
+दो समान चिह्न ` == ` का प्रयोग वेरिएबल की **तुलना** करने के लिए किया जाता है, क्योंकि एकल समान चिह्न पहले से ही वेरिएबल को **मान देने के लिए** उपयोग किया जा रहा है।
 
 --- /collapse ---
 
-You can use these comparisons to create `if` statements: code that should only run _if_ whatever is in the brackets (the **condition**) is true. Here, the `print` statement inside the `if` statement will only run if the value of `my_number` is larger than `100`;
+आप इन तुलनाओं का उपयोग कर सकते हैं `if`स्टेटमेंट बनाने के लिए: मतलब कोड केवल तभी चलेगा जब जो कुछ भी _if_स्टेटमेंट के कोष्ठक में (**स्थिति**) सच हो। यहां,`if` स्टेटमेंट के अंदर जो `print` स्टेटमेंट है वह केवल तभी चलेगा जब ` my_number` का मान `100` से ज्यादा होगा;
 
 ```python
 if(my_number > 100):
     print("That's a big number!")
 ```
 
-#### Indentation
-Notice that the `print` inside the `if` statement is **indented**. That means that four spaces have been put before it.
+#### इंडेंटेशन (Indentation)
+ध्यान दें कि ` print `जो **if **स्टेटमेंट के अंदर है वह इंडेंटेड (Indented) है । इसका मतलब है कि उसके पहले चार रिक्त स्थान लगाए गए हैं।
 
-Python needs these spaces to understand your program!
+Python को आपके प्रोग्राम को समझने के लिए इन रिक्त स्थानों की जरुरत पड़ती है!
 
-Now, put that little bit of code together with your program from the last card.
+अब, उस कोड को पिछले वाले कार्ड के अपने प्रोग्राम के साथ जोड़ दें।
 
 --- task ---
 
-Change the program so it looks like this:
+अपने प्रोग्राम को ऐसे बदलें ताकि वो कुछ इस तरह दिखाई दे:
 
 ```python
 name = input("What is your name?")
@@ -51,6 +51,6 @@ if(my_number > 100):
 
 --- task ---
 
-Now run it and try entering different numbers above and below 100 to see what happens. What would happen if you entered 100 exactly?
+अब इसे Run करे और 100 से बड़ी या छोटी संख्या को दर्ज करने का प्रयास करें फिर देखें कि क्या होता है। अगर आप 100 दर्ज़ करते हैं तो क्या होगा?
 
 --- /task ---
