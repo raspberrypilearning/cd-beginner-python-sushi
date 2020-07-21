@@ -70,7 +70,7 @@ print("The Code, it's calling to you. Just let it in.")
 
 --- collapse ---
 ---
-title: a "Hello" के बाद स्पेस
+title: '"Hello" के बाद स्पेस'
 ---
 
 आपको "Hello" के बाद एक स्पेस लगाना होगा, नही तो आपको बस "Hellomy name " मिलेगा, क्योंकि Python को यह नहीं पता है कि अंग्रेजी असलियत में कैसी होती है!
