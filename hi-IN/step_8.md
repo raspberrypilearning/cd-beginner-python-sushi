@@ -1,30 +1,30 @@
-## Make a number guessing game
+## एक संख्या का अनुमान लगाने का खेल बनाओ
 
-So now you've learned about:
-  * `print` statements for talking to your users
-  * variables, which are a way to get our program to remember and update values
-  * strings, which are pieces of text
-  * `input` for getting information from our user
-  * maths: how to do maths with a number
-  * integers, which are numbers for doing maths with
-  * `if` statements, to make your code do something based on a condition
-  * `while` loops, to make your code keep doing something until a condition isn't true
+तो अब आपने इसके बारे में सीखा है:
+  * `print` स्टेटमेंट अपने उपयोगकर्ताओं से बात करने के लिए
+  * वेरिएबल, जो हमारे प्रोग्राम को याद रखने और मानों को अपडेट करने के काम आते है
+  * स्ट्रिंग, जो टेक्स्ट के हिस्से हैं
+  * `input` हमारे उपयोगकर्ता से जानकारी प्राप्त करने के लिए
+  * गणित: एक नंबर से गणित कैसे करें
+  * इन्टिजर, जो गणित के लिए उपयोग होते हैं
+  * `if` स्टेटमेंट, एक शर्त के आधार पर अपने कोड द्वारा कुछ करने के लिए
+  * `while `लूप्स, जब तक कोई शर्त गलत न हो तब तक अपना कोड चलाते रहने के लिए
 
-You can use these tools and commands to make this game:
-  * There is a number (an integer), between 1 and 9, that the program picks in secret
-  * Players have 5 guesses to pick the number
-  * The game teaches players the rules
-  * Players are told after each guess whether the number is lower, higher, or correct, and how many guesses they have left
-  * If players gets their guess right, they get a special winning message
-  * If players gets their fifth guess wrong, the game is over and they lose
+इस गेम को बनाने के लिए आप इन सब का उपयोग कर सकते हैं:
+  * 1 और 9 के बीच एक संख्या (एक इन्टिजर) है, जो प्रोग्राम गुप्त रूप से चुनता है
+  * खिलाड़ियों के पास संख्या चुनने के लिए 5 अनुमान हैं
+  * खेल खिलाड़ियों को नियम बताता है
+  * खिलाड़ियों को प्रत्येक अनुमान के बाद उन्हें बताया जाता है कि क्या संख्या कम, अधिक या सही है, और खिलाडी के पास कितने अनुमान बचे हैं
+  * अगर खिलाड़ियों का उनका अनुमान सही लगता है, तो उन्हें जीत का एक विशेष संदेश मिलता है
+  * यदि खिलाड़ियों को पांचवा अनुमान गलत होता है, तो खेल खत्म हो जाता है और वे हार जाते हैं
 
-You can play an example of the game at [dojo.soy/py-dice](http://dojo.soy/py-dice){:target="blank"}.
+आप [dojo.soy/py-dice](http://dojo.soy/py-dice){:target="blank"} पर खेल का एक उदाहरण देख सकते हैं।
 
-You're missing just one thing to be able to write this game: a way to get a random number between 1 and 9. The code to do this is a little beyond what you've covered, but you can use it right now without understanding exactly how it works.
+आपके पास इस गेम को लिखने में सक्षम होने के लिए सिर्फ एक चीज नहीं है: 1 और 9 के बीच एक रैंडम (Random) संख्या प्राप्त करने का तरीका। यह काम करने के लिए कोड आपके द्वारा कवर कि गई चीज़ो से थोड़ा मुश्किल है, लेकिन आप अभी बिना इसे पूरा समझे इसका उपयोग कर सकते हैं।
 
 --- task ---
 
-Put this as the **first line** in your program:
+आपके प्रोग्राम में इसे **पहली पंक्ति** के रूप में रखें:
 
 ```python
 from random import randint as dice
@@ -32,7 +32,7 @@ from random import randint as dice
 
 --- /task ---
 
-Now, anywhere you want to use a random number between 1 and 9, just use `dice(1,9)`. For example:
+अब, कहीं भी अगर आप 1 और 9 के बीच एक रैंडम (Random) संख्या चुनना चाहते हैं, तो बस `dice(1,9)` का उपयोग करें। उदाहरण के लिए:
 
 ```python
 secret_number = dice(1,9)
@@ -40,32 +40,32 @@ secret_number = dice(1,9)
 
 --- task ---
 
-Start a new Python program and try to make the game now!
+एक नया Python प्रोग्राम शुरू करें और अब खेल बनाने की कोशिश करें!
 
 --- /task ---
 
-Remember to use what you've learned on previous steps of this project.
+इस प्रोजेक्ट के पिछले चरणों में जो आपने सीखा है उसका उपयोग करने को याद करना ना भूलें।
 
-Good luck!
+शुभकामनाएं!
 
 --- hints ---
 
 --- hint ---
 
-You can keep track of the number of guesses players have used (or have left, depending on which way you look at it!) using a variable. You'll need to write some code to change its value after each guess.
+आप एक वेरिएबल का उपयोग करते हुए खिलाडी ने कितने अनुमान लगाये हैं (या कितने बचे है, इस पर निर्भर करता है कि आप किस तरह से देखते हैं!) उसका हिसाब रख सकते हैं। खिलाडी द्वारा प्रत्येक अनुमान के बाद आपको उसका मान बदलने के लिए कुछ कोड लिखने की आवश्यकता होगी।
 
-Then write the right condition for your `while` loop to check whether players have used up all their guesses.
+फिर अपने `while` लूप के लिए सही शर्त लिखें, यह जांचने के लिए कि क्या खिलाड़ियों ने अपने सभी अनुमानों का उपयोग किया है।
 
 --- /hint ---
 
 --- hint ---
 
-Try using variables to store some of the other numbers too, such as the two numbers players should guess between, and the total number of guesses they are allowed.
+कुछ अन्य नंबरों को भी स्टोर करने के लिए वेरिएबल्स का उपयोग करने की कोशिश करें, जैसे कि दो नंबर जिनके बीच में खिलाड़ियों को अनुमान लगाना है, और खिलाडी को कितने अनुमान लगाने की अनुमति है।
 
-Your program will work just fine even if you don't do this, but defining things with variables is usually a good idea. One reason is that it makes your life easier if you decide to change these values later: then the only thing you need to change is the values you assign to the variables at the top of your program, and you don't have to change all the places where you've used their values.
+यदि आप ऐसा नहीं करते हैं तो भी आपका प्रोग्राम काम करेगा, लेकिन वेरिएबल द्वारा चीजों को परिभाषित करना आमतौर पर एक अच्छा विचार है। एक कारण यह है कि यदि आप इन मूल्यों को बाद में बदलने का निर्णय लेते हैं तो वेरिएबल आपके काम को आसान बनाता है: तब आपको केवल एक चीज को बदलने की आवश्यकता है वह है मान जो आप अपने प्रोग्राम में वेरिएबल को देते हैं, और आपको उन सभी जगह बदलने की आवश्यकता नहीं है जहां आपने उनके मान का उपयोग किया है।
 
 --- /hint ---
 
 --- /hints ---
 
-If you're stuck, or when you're done, you can check my answer at [dojo.soy/python-ans](http://dojo.soy/python-ans){:target="blank"}. Don't worry if yours looks very different — that doesn't matter as long as it works.
+यदि आप फंस गए हैं, या जब आप ने कर लिया है, तो आप [ dojo.soy/python-ans](http://dojo.soy/python-ans){:target="blank"} पर मेरे उत्तर को देख सकते हैं । चिंता ना करें अगर आपका कोड मेरे से बहुत अलग लग रहा है - जब तक वह काम कर रहा है तब तक कोई फर्क नहीं पड़ता।
