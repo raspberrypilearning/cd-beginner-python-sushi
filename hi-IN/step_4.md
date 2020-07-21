@@ -1,10 +1,10 @@
-## Talk to the user
+## उपयोगकर्ता से बात करें
 
-Getting the computer to stick your name on the end of `"Hello "` is nice, but why not just write `"Hello [my name]"`? Because you don't have to know what's going to be stored in a **variable** when you write the program. You can even ask the user of the program to tell you what to put into it.
+`"Hello"` के अंत में अपना नाम लगाने के लिए कंप्यूटर का उपयोग करना अच्छा है, लेकिन सिर्फ `"Hello [my name]"` क्यों नहीं लिखें? क्योंकि जब आप प्रोग्राम लिखते हैं तब आपको यह जानने की जरूरत नहीं है कि **वेरिएबल** में क्या संग्रहित किया जाएगा । आप प्रोग्राम के उपयोगकर्ता से भी पूछ सकते हैं कि वह आपको बताए कि उसमें क्या संग्रहित किया जाए।
 
 --- task ---
 
-Update your Python program so that it asks the user for the text to put in the variable:
+अपने Python प्रोग्राम को अपडेट करें, ताकि वह उपयोगकर्ता से पूछे कि वेरिएबल में क्या टेक्स्ट डालना है:
 
 ```python
 name = input("What is your name?")
@@ -16,13 +16,13 @@ print("The Code, it's calling to you. Just let it in.")
 
 --- task ---
 
-Try running it. You'll need to press the <kbd>Enter</kbd> key once you've typed in your name.
+अब कोड को Run करने का प्रयास करें। जब आप अपने नाम में टाइप कर लेते हैं तब आपको एक बार <kbd>Enter</kbd> बटन दबाना होगा।
 
 --- /task ---
 
 --- task ---
 
-Now, try collecting a number from your user by changing your code to look like this:
+अब, अपने कोड को इस तरह बदलकर अपने उपयोगकर्ता से एक नंबर लेने करने का प्रयास करें:
 
 ```python
 name = input("What is your name?")
@@ -32,19 +32,19 @@ print("Your number is "+my_number)
 
 --- /task ---
 
-Notice that you can use the `+` on both sides of a variable!
+ध्यान दें कि आप `+` का उपयोग एक वेरिएबल के दोनों तरफ कर सकते हैं!
 
 --- task ---
 
-Run this program, answer its questions, and watch what happens.
+इस प्रोग्राम को Run करें, इसके प्रश्नों का उत्तर दें और देखें कि क्या होता है।
 
 --- /task ---
 
-What if you want to add another number to the number stored in your new variable? Let's try that.
+यदि आप अपने नए वेरिएबल में संग्रहीत संख्या में दूसरी संख्या जोड़ना चाहते हैं तब क्या? आइए कोशिश करते हैं।
 
 --- task ---
 
-Add a line to your program that will add `1` to the `my_number` variable:
+अपने प्रोग्राम में एक पंक्ति जोड़ें जो की `my_number` वेरिएबल में `1` को जोड़ देगा:
 
 ```python
 name = input("What is your name?")
@@ -57,22 +57,22 @@ print("Your number is "+str(my_number))
 
 --- collapse ---
 ---
-title: How does the new code work?
+title: नया कोड कैसे काम करता है?
 ---
 
-You've just taken a value from a variable, changed it, and stored it back in the same variable — all on the same line!
+आपने सिर्फ एक वेरिएबल से उसका मान लिया है, फिर उसे बदल दिया है, और इसे उसी वेरिएबल में वापस संग्रहीत किया है — और ये सब एक ही पंक्ति में!
 
-Now, why does the code have `int()` and `str()` around `my_number`?
+अब आपके मन में सवाल होगा कि, कोड में `my_number` के आसपास `int()` और `str()` क्यों है?
 
-It's because Python makes a difference between the number '1' it uses for maths and the number '1' it writes in a sentence. Putting `int( )` around a variable tells it to treat it as an **integer** (a maths number), and putting `str( )` around it tells it to treat it as a text **string**.
+ऐसा इसलिए है क्योंकि Python गणित के लिए उपयोग की जाने वाली संख्या '1' और वाक्य में लिखी जाने वाली स्ट्रिंग संख्या '1' के बीच अंतर करता है। वेरिएबल के पास लगा हुआ `int()` Python को बताता है की वह उसके साथ एक **पूर्णांक** (गणित में एक प्रकार का नंबर) की तरह व्यवहार करे , और वेरिएबल के पास लगा हुआ `str()` बताता है की वह उसके साथ एक टेक्स्ट **स्ट्रिंग** की तरह व्यवहार करे।
 
-**Integers** and **strings** are variable **types**, and certain pieces of code (like `+` and `print`) only work if the variables you give them are the right type.
+**इन्टिजर** और **स्ट्रिंग** वेरिएबल के** प्रकार** हैं, और कोड के कुछ हिस्से (जैसे ` + ` और `print`) केवल तभी काम करेंगे जब आप उन्हें सही प्रकार का वेरिएबल देंगे।
 
 --- /collapse ---
 
-### Maths in Python
+### Python में गणित
 
-You've seen how to add here, but you can also:
-* Subtract using `-`
-* Multiply using `*`
-* Divide using `/`
+आपने देखा कि यहां कैसे जोड़ा जाए, लेकिन आप यह भी कर सकते हैं:
+* <0>-</0> का उपयोग कर घटाएँ `-`
+* <0>*</0> का उपयोग कर गुणा करें `*`
+* `-*` का उपयोग कर विभाजित करें
