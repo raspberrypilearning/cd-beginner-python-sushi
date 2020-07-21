@@ -1,26 +1,26 @@
 ---
-title: Guess the number
+title: कौन सा अंक है अंदाजा लगाओ
 hero_image: images/banner.png
-description: Learn how to code with Python and make a guessing game
+description: सीखें कि Python के साथ कोड कैसे करें और एक अंदाज़ा लगाने का खेल बनाएं
 version: 4
 listed: true
 copyedit: true
 last_tested: "2018-06-05"
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Running your program
+    title: अपने प्रोग्राम (program) को run करें
   - 
-    title: Your first Python program
+    title: आपका पहला Python प्रोग्राम (program)
   - 
-    title: Talk to the user
+    title: उपयोगकर्ता से बात करें
   - 
-    title: Compare and check things
+    title: चीजों की तुलना और जांच करें
   - 
-    title: Check more than one thing
+    title: एक से अधिक चीजों की जांच करें
   - 
-    title: Keep asking
+    title: पूछते रहिये
   - 
-    title: "Challenge: Let's make a game!"
+    title: "चुनौती: चलिए एक खेल बनाते हैं!"
     challenge: true
