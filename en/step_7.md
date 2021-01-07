@@ -14,7 +14,7 @@ while(my_number < 100):
 
 --- task ---
 
-Now add a `while` loop to your program, to keep asking users for a number until they give that's lareger than 100.
+Now add a `while` loop to your program, to keep asking users for a number until they give that's larger than 100.
 
 ```python
 name = input("What is your name?")
