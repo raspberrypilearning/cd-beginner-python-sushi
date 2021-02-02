@@ -14,7 +14,7 @@ while(my_number < 100):
 
 --- task ---
 
-अब अपने प्रोग्राम में `while` लूप जोड़े, जिससे की वह उपयोगकर्ताओं को एक संख्या के लिए पूछते रहे जब तक कि वे 100 से ज्यादा की संख्या नहीं देते।
+Now add a `while` loop to your program, to keep asking users for a number until they give that's larger than 100.
 
 ```python
 name = input("What is your name?")
