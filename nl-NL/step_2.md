@@ -1,5 +1,5 @@
-### Running your program
+### Je programma uitvoeren
 
-In later cards, you'll be asked to **run** a program. You can do this in Trinket by clicking on the 'Run' button:
+Op latere kaarten word je gevraagd om een programma **uit te voeren**. Je kunt dit in Trinket doen door op de 'Run' knop te klikken:
 
-![The Trinket run button](images/runButton.png)
+![De Trinket run-knop](images/runButton.png)
