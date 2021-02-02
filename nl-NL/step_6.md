@@ -1,72 +1,72 @@
-## Check more than one thing
+## Controleer meer dan één ding
 
-What if you want to check if the user's number is big enough, and let them know if it's not?
+Wat als je wilt controleren of het getal van de gebruiker groot genoeg is, en hun wilt laten weten als dit niet zo is?
 
-You can combine conditions by using `and` and `or`. So you could write code like this:
+Je kunt voorwaarden combineren door `and` en `or` te gebruiken. Dus je zou als volgt code kunnen schrijven:
 
 ```python
-if(my_number >= 20 and my_number < 30):
-    print("That number is in the twenties!")
+if(mijn_getal >= 20 and mijn_getal < 30):
+    print("Dat getal is minstens twintig en onder de dertig!")
 ```
 
-Or, for example:
+Of bijvoorbeeld:
 
 ```python
-if(food == "Cake" or food == "Chocolate" or food == "Pie"):
-    print("Sounds tasty!")
+if (eten == "Cake" of eten == "Chocolade" or eten == "Taart"):
+    print ("Klinkt lekker!")
 ```
 
 --- task ---
 
-Check whether the user's number is bigger than 100. Then, either congratulate the user on giving a number that's big enough, or tell them where they didn't pick a number big enough.
+Controleer of het gebruikersgetal groter is dan 100. Vervolgens feliciteer je de gebruiker met het geven van een getal dat groot genoeg is, of vertel je hem dat hij geen getal heeft gekozen dat groot genoeg is.
 
-Try this:
+Probeer dit:
 
 ```python
-name = input("What is your name?")
-my_number = input("Hello "+name+" please pick a number that's bigger than 100")
-my_number = int(my_number)
-print("Your number is "+str(my_number))
+naam = input("Wat is je naam?")
+mijn_getal = input("Hallo "+ naam +" kies alsjeblieft een getal dat groter is dan 100")
+mijn_getal = int (mijn_getal)
+print("Je getal is" + str(mijn_getal))
 
-if(my_number > 100):
-    print("That's a big number!")
+if (mijn_getal > 100):
+    print("Dat is een groot getal!")
 else:
-    print("That number is too small!")
+    print("Dat getal is te klein!")
 ```
 
 --- /task ---
 
-The code inside the `else` statement runs whenever the condition in the bracket of the `if` statement _isn't_ true.
+De code binnen de `else` instructie wordt uitgevoerd wanneer de voorwaarde tussen haakjes van de `if` instructie _niet_ waar is.
 
-### More conditions
+### Meer voorwaarden
 
-What if you want to tell the user when they're close, for example if they've picked a number over `90`?
+Wat als je de gebruiker wilt vertellen wanneer ze dichtbij zijn, bijvoorbeeld als ze een getal boven de `90` hebben gepakt?
 
-Then you can use an `elif` statement! That name is the words 'else' and 'if' stuck together. The code inside an `elif` statements runs only when the condition in the `if` statement _is not_ true **and** the condition in the `elif` statement's brackets _is_ true.
+Dan kun je een `elif` instructie gebruiken! Die naam zijn de woorden 'else' en 'if' aan elkaar geplakt. De code binnen een `elif` instructie wordt alleen uitgevoerd als de voorwaarde in de `if` instructie _niet_ waar is **en** de conditie tussen de haakjes van de `elif` instructie _wel_ waar is.
 
-Here's what you add to get the program to tell the user they're close:
+Dit is wat je toevoegt om ervoor te zorgen dat het programma de gebruiker vertelt dat ze dichtbij zijn:
 
 ```python
-elif(my_number > 90):
-    print("Almost there!")
+elif(min_getal > 90):
+    print("Bijna klaar!")
 ```
 
 --- task ---
 
-Now add those lines into the rest of your program. Notice that the `elif` statements has to come between the `if` and the `else` statements.
+Voeg nu die regels toe aan de rest van je programma. Merk op dat de `elif` instructies tussen de `if` en de `else` instructies moeten komen.
 
 ```python
-name = input("What is your name?")
-my_number = input("Hello "+name+" please pick a number that's bigger than 100")
-my_number = int(my_number)
-print("Your number is "+str(my_number))
+naam = input("Wat is je naam?")
+mijn_getal = input("Hallo "+ naam +" kies alsjeblieft een getal dat groter is dan 100")
+mijn_getal = int (mijn_getal)
+print("Je getal is" + str(mijn_getal))
 
-if(my_number > 100):
-    print("That's a big number!")
-elif(my_number > 90):
-    print("Almost there!")
+if (mijn_getal > 100):
+    print("Dat is een groot getal!")
+elif(min_getal > 90):
+    print("Bijna klaar!")
 else:
-    print("That number is too small!")
+    print("Dat getal is te klein!")
 ```
 
 --- /task ---
