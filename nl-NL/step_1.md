@@ -1,13 +1,13 @@
-## Introduction
+## Inleiding
 
 
-You're going to learn programming by building a game with a language called Python.
+Je gaat leren programmeren door een spel te maken met een taal die Python heet.
 
-**Did you know?** Websites like YouTube and Instagram are built using Python.
+**Wist je dat?** Websites zoals YouTube en Instagram zijn gebouwd met Python.
 
-### What you will make
+### Wat ga je maken
 
-You will make a guessing game in which the computer picks a number between 1 and 9, and the player has five chances to guess the number.
+Je maakt een raadspel waarbij de computer een getal tussen 1 en 9 kiest, en de speler vijf kansen krijgt om het getal te raden.
 
 <!-- <div class="trinket">
   <iframe allowtransparency="true" width="485" height="402" src="https://trinket.io/embed/python/9e104001e7?outputOnly=true&start=result" frameborder="0"></iframe>
@@ -15,29 +15,29 @@ You will make a guessing game in which the computer picks a number between 1 and
 
 --- collapse ---
 ---
-title: What you will learn
+title: Wat ga je leren
 ---
 
-+ Printing text to the screen
-+ Basic string concatenation (including using `str()` to convert numbers)
-+ Storing text and numbers in variables
-+ Getting user input (including `int()` to convert numbers)
-+ Simple maths operations
-+ `If`/`elif`/`else` statements and comparison operators
-+ While loops
++ Tekst afdrukken op het scherm
++ Basis van strings samenvoegen (inclusief het gebruik van `str()` om getallen om te zetten)
++ Tekst en getallen opslaan in variabelen
++ Gebruikersinvoer ophalen (inclusief `int()` om getallen te converteren)
++ Eenvoudige wiskundige bewerkingen
++ `If`/`elif`/`else` statements en vergelijkingsoperatoren
++ While lussen
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will need
+title: Wat heb je nodig
 ---
 
 ### Hardware
-An internet-connected computer
+Een computer met internetverbinding
 
 ### Software
-This project uses Python 3. We recommend using [Trinket](https://trinket.io/), which allows you to write Python code online.
+Dit project maakt gebruik van Python 3. We raden aan [Trinket](https://trinket.io/) te gebruiken, waarmee je online Python-code kunt schrijven.
 
 --- /collapse ---
 
