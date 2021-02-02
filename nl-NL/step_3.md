@@ -1,92 +1,92 @@
-## Your first Python program
+## Je eerste Python-programma
 
-Time for your first bit of Python. You're going to get the computer to say hello to everyone.
+Tijd voor je eerste stukje Python. Je gaat de computer hallo tegen iedereen laten zeggen.
 
 --- task ---
 
-Type this into Trinket:
+Typ dit in Trinket:
 
 ```python
-print("Hello everyone")
+print("Hallo allemaal")
 ```
 
 --- /task ---
 
 --- task ---
 
-Run the code and see what happens!
+Voer de code uit en kijk wat er gebeurt!
 
 --- /task ---
 
 --- task ---
 
-Try changing what’s inside the `"` symbols, maybe by adding your name, and running it again.
+Probeer te veranderen wat tussen de `"` symbolen staat, misschien door je naam toe te voegen, en het opnieuw uit te voeren.
 
 --- /task ---
 
 --- task ---
 
-Now add another line, below the existing one:
+Voeg nu nog een regel toe, onder de bestaande regel:
 
 ```python
-print("Hello everyone")
-print("The Code, it's calling to you. Just let it in.")
+print ("Hallo allemaal")
+print ("De Code, hij roept naar jou. Laat het gewoon binnen.")
 ```
 
 --- /task ---
 
 --- task ---
 
-Run it again.
+Voer het opnieuw uit.
 
 --- /task ---
 
-See how the text (called a **string**) from the second `print` is on a new line? This is because the instruction the computer gets when you tell it to `print` is:
+Zie je hoe de tekst (een **string**) van de tweede `print` op een nieuwe regel staat? Dit komt omdat de instructie, die de computer krijgt wanneer je het vertelt om een `print` te doen, is:
 
-     1. Read the code in the brackets and figure out the result
-     2. Once you’ve figured out what it says, `print` that out on the screen
-     3. Put an invisible “start a new line” instruction at the end
+     1. Lees de code tussen de haakjes en bepaal het resultaat
+     2. Zodra je hebt uitgevonden wat er staat, `print` dat op het scherm
+     3. Zet een onzichtbare "begin een nieuwe regel" instructie aan het einde
 
-Why does the computer need to figure out what the code in those brackets says? It's because the computer can put that string together from parts you give it.
+Waarom moet de computer uitzoeken wat de code tussen die haakjes zegt? Dat komt doordat de computer die tekenreeks kan samenvoegen uit de delen die je hem geeft.
 
-Try it out!
+Probeer het uit!
 
 --- task ---
 
-Use the following code, but put your name in between the `"` symbols where it says `"my name"`.
+Gebruik de volgende code, maar zet je naam tussen de `"` symbolen waarin `"mijn naam"` staat.
 
 ```python
-name = "my name"
-print("Hello "+name)
-print("The Code, it's calling to you. Just let it in.")
+naam = "mijn naam"
+print("Hallo "+naam)
+print("De Code, hij roept naar jou. Laat het gewoon binnen.")
 ```
 
 --- /task ---
 
 --- task ---
 
-Now run your code again and look at the result!
+Voer nu je code opnieuw uit en bekijk het resultaat!
 
 --- /task ---
 
 --- collapse ---
 ---
-title: The space after "Hello"
+title: De spatie na "Hallo"
 ---
 
-You have to include a space after the "Hello", otherwise you'll just get "Hellomy name", because Python doesn't know what English looks like!
+Je moet een spatie toevoegen na "Hallo", anders krijg je gewoon "Hallomijn naam", omdat Python niet weet hoe Nederlands eruitziet!
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: How does the new code work?
+title: Hoe werkt de nieuwe code?
 ---
 
-You made a **variable** called `name`. A variable is like a box inside the computer with a label on it. You can put anything you want in it. Then, you can use the label to get Python to go fetch the thing that’s in the box and use it in your code.
+Je hebt een **variabele** genaamd `naam` gemaakt. Een variabele is als een doos in de computer met een label erop. Je kunt er alles in stoppen wat je wilt. Vervolgens kun je het label gebruiken om Python het ding dat in de doos zit te laten ophalen en in je code te gebruiken.
 
-+ So first, you created the `name` variable and stored `"my name"` in it.
++ Dus eerst heb je de variabele `naam` gemaakt en er `"mijn naam"` in opgeslagen.
 
-+ On the next line, you used the `+` symbol followed by the variable to attach your name after the greeting at the end of the string.
++ Op de volgende regel gebruikte je het `+` symbool gevolgd door de variabele om je naam toe te voegen aan het einde van de string na de begroeting.
 
 --- /collapse ---
