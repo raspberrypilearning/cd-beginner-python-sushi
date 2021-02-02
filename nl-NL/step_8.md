@@ -1,71 +1,71 @@
-## Make a number guessing game
+## Maak een spel om getallen te raden
 
-So now you've learned about:
-  * `print` statements for talking to your users
-  * variables, which are a way to get our program to remember and update values
-  * strings, which are pieces of text
-  * `input` for getting information from our user
-  * maths: how to do maths with a number
-  * integers, which are numbers for doing maths with
-  * `if` statements, to make your code do something based on a condition
-  * `while` loops, to make your code keep doing something until a condition isn't true
+Dus je hebt nu geleerd over:
+  * `druk` instructies uit om met je gebruikers te praten
+  * variabelen, die een manier zijn om ons programma waarden te laten onthouden en bij te werken
+  * strings, die stukjes tekst zijn
+  * `input` voor het verkrijgen van informatie van onze gebruiker
+  * wiskunde: hoe wiskunde te doen met een getal
+  * gehele getallen, dit zijn getallen om mee te rekenen
+  * `if` instructies, om je code iets te laten doen op basis van een voorwaarde
+  * `while` lussen, om je code iets te laten blijven doen totdat een voorwaarde niet waar is
 
-You can use these tools and commands to make this game:
-  * There is a number (an integer), between 1 and 9, that the program picks in secret
-  * Players have 5 guesses to pick the number
-  * The game teaches players the rules
-  * Players are told after each guess whether the number is lower, higher, or correct, and how many guesses they have left
-  * If players gets their guess right, they get a special winning message
-  * If players gets their fifth guess wrong, the game is over and they lose
+Je kunt deze tools en commando's gebruiken om dit spel te maken:
+  * Er is een getal (een geheel getal), tussen 1 en 9, dat het programma in het geheim kiest
+  * Spelers mogen 5 keer raden om het getal te vinden
+  * Het spel leert spelers de regels
+  * Spelers krijgen na elke poging te horen of het getal lager, hoger of correct is, en hoeveel keer ze nog mogen raden
+  * Als spelers goed raden, krijgen ze een speciaal overwinningsbericht
+  * Als spelers vijf keer verkeerd gokken, is het spel voorbij en verliezen ze
 
-You can play an example of the game at [dojo.soy/py-dice](http://dojo.soy/py-dice){:target="blank"}.
+Je kunt een voorbeeld van het spel spelen op [dojo.soy/py-dice](http://dojo.soy/py-dice){:target="blank"}.
 
-You're missing just one thing to be able to write this game: a way to get a random number between 1 and 9. The code to do this is a little beyond what you've covered, but you can use it right now without understanding exactly how it works.
+Je mist maar één ding om dit spel te kunnen schrijven: een manier om een willekeurig getal tussen 1 en 9 te krijgen. De code om dit te doen gaat iets verder dan wat we tot nu toe hebben behandeld, maar je kunt deze nu gebruiken zonder precies te begrijpen hoe het werkt.
 
 --- task ---
 
-Put this as the **first line** in your program:
+Zet dit als de **eerste regel** in je programma:
 
 ```python
-from random import randint as dice
+from random import randint as dobbelsteen
 ```
 
 --- /task ---
 
-Now, anywhere you want to use a random number between 1 and 9, just use `dice(1,9)`. For example:
+Nu kun je overal waar je een willekeurig getal tussen 1 en 9 nodig hebt gewoon `dobbelsteen(1,9)` gebruiken. Bijvoorbeeld:
 
 ```python
-secret_number = dice(1,9)
+geheim_getal = dobbelsteen(1,9)
 ```
 
 --- task ---
 
-Start a new Python program and try to make the game now!
+Start een nieuw Python-programma en probeer het spel nu te maken!
 
 --- /task ---
 
-Remember to use what you've learned on previous steps of this project.
+Vergeet niet om te gebruiken wat je in eerdere stappen van dit project hebt geleerd.
 
-Good luck!
+Succes!
 
 --- hints ---
 
 --- hint ---
 
-You can keep track of the number of guesses players have used (or have left, depending on which way you look at it!) using a variable. You'll need to write some code to change its value after each guess.
+Je kunt het aantal keren raden bijhouden dat spelers hebben gebruikt (of over hebben, afhankelijk van hoe je het bekijkt!) door een variabele te gebruiken. Je moet code schrijven om de waarde te wijzigen na elke gok.
 
-Then write the right condition for your `while` loop to check whether players have used up all their guesses.
+Schrijf vervolgens de juiste voorwaarde voor je `while` lus om te controleren of spelers al hun keren raden hebben opgebruikt.
 
 --- /hint ---
 
 --- hint ---
 
-Try using variables to store some of the other numbers too, such as the two numbers players should guess between, and the total number of guesses they are allowed.
+Probeer variabelen te gebruiken om ook enkele van de andere getallen op te slaan, zoals de twee getallen waartussen spelers moeten raden, en het totale aantal toegestane keren raden.
 
-Your program will work just fine even if you don't do this, but defining things with variables is usually a good idea. One reason is that it makes your life easier if you decide to change these values later: then the only thing you need to change is the values you assign to the variables at the top of your program, and you don't have to change all the places where you've used their values.
+Je programma zal prima werken, zelfs als je dit niet doet, maar het is meestal een goed idee om dingen met variabelen te definiëren. Eén reden is dat het je leven makkelijker maakt als je later besluit deze waarden te veranderen: dan is het enige dat je moet veranderen de waarden die je bovenaan in je programma toekent, en je hoeft niet alle plaatsen te veranderen waar je hun waarden hebt gebruikt.
 
 --- /hint ---
 
 --- /hints ---
 
-If you're stuck, or when you're done, you can check my answer at [dojo.soy/python-ans](http://dojo.soy/python-ans){:target="blank"}. Don't worry if yours looks very different — that doesn't matter as long as it works.
+Als je vastzit, of wanneer je klaar bent, kun je mijn antwoord bekijken op [dojo.soy/python-ans](http://dojo.soy/python-ans){:target="blank"}. Maak je geen zorgen als die van jou er heel anders uitziet — dat maakt niet uit, zolang het maar werkt.
