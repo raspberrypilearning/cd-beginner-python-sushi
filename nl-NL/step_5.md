@@ -1,56 +1,56 @@
-## Compare and check things
+## Vergelijk en controleer dingen
 
-You can ask Python to compare one number to another number. This can be really handy for writing games (e.g. do players have as much money as this costume costs?).
+Je kunt Python vragen om het ene getal te vergelijken met een ander getal. Dit kan erg handig zijn voor het schrijven van spellen (bijvoorbeeld hebben spelers minstens zoveel geld als dit kostuum kost?).
 
-You do this using special symbols:
-* `a > b` checks whether `a` is bigger than `b`
-* `a < b` checks whether `a` is smaller than `b`
-* `a == b` checks whether `a` is the same as `b`
-* `a != b` checks whether `a` is not the same as `b`
-* `a >= b` checks whether `a` is bigger than, or the same size as, `b`
-* `a <= b` checks whether `a` is smaller than, or the same size as, `b`
+Je doet dit met behulp van speciale symbolen:
+* `a > b` controleert of `a` groter is dan `b`
+* `a < b` controleert of `a` kleiner is dan `b`
+* `a == b` controleert of `a` hetzelfde is als `b`
+* `a != b` controleert of `a` niet hetzelfde is als `b`
+* `a >= b` controleert of `a` groter is dan of even groot is als `b`
+* `a <= b` controleert of `a` kleiner is dan of even groot is als `b`
 
 --- collapse ---
 ---
-title: Why are there two equals signs together?
+title: Waarom zijn er twee gelijktekens bij elkaar?
 ---
 
-The two equal signs `==` are used to **compare** variables, because the single equal sign is already used to **assign** values to variables.
+De twee gelijktekens `==` worden gebruikt om variabelen **te vergelijken**, omdat het enkele gelijkteken al wordt gebruikt om waarden **toe te wijzen** aan variabelen.
 
 --- /collapse ---
 
-You can use these comparisons to create `if` statements: code that should only run _if_ whatever is in the brackets (the **condition**) is true. Here, the `print` statement inside the `if` statement will only run if the value of `my_number` is larger than `100`;
+Je kunt deze vergelijkingen gebruiken om `if` instructies te maken: code die alleen zou moeten worden uitgevoerd _als_ wat tussen haakjes staat (de **voorwaarde**) waar is. Hier wordt de instructie `print` binnen de instructie `if` alleen uitgevoerd als de waarde van `mijn_getal` groter is dan `100`;
 
 ```python
-if(my_number > 100):
-    print("That's a big number!")
+if(mijn_getal > 100):
+    print("Dat is een groot getal!")
 ```
 
-#### Indentation
-Notice that the `print` inside the `if` statement is **indented**. That means that four spaces have been put before it.
+#### Inspringing
+Merk op dat de `print` binnen de `if` instructie is **ingesprongen**. Dat betekent dat er vier spaties voor zijn gezet.
 
-Python needs these spaces to understand your program!
+Python heeft deze spaties nodig om je programma te begrijpen!
 
-Now, put that little bit of code together with your program from the last card.
+Voeg dat kleine beetje code nu samen met je programma van de vorige kaart.
 
 --- task ---
 
-Change the program so it looks like this:
+Verander het programma zo dat het er zo uitziet:
 
 ```python
-name = input("What is your name?")
-my_number = input("Hello "+name+" please pick a number")
-my_number = int(my_number)
-print("Your number is "+str(my_number))
+naam = input("Wat is je naam?")
+mijn_getal = input("Hoi "+naam+" kies een getal")
+mijn_getal = int(mijn_getal)
+print("Jouw getal is "+str(mijn_getal))
 
-if(my_number > 100):
-    print("That's a big number!")
+if(mijn_getal > 100):
+    print("Dat is een groot getal!")
 ```
 
 --- /task ---
 
 --- task ---
 
-Now run it and try entering different numbers above and below 100 to see what happens. What would happen if you entered 100 exactly?
+Voer het nu uit en probeer verschillende getallen boven en onder de 100 om te zien wat er gebeurt. Wat zou er gebeuren als je precies 100 invoert?
 
 --- /task ---
