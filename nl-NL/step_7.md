@@ -1,51 +1,51 @@
-## Keep asking
+## Blijf vragen
 
-You can ask users to pick a number now, check if it's the right size and, and if it isn't, tell them it's not. What if you wanted to keep your program going until you got an answer that was the right size?
+Je kunt gebruikers nu vragen om een getal te kiezen, controleren of het de juiste waarde heeft en, als dat niet zo is, hen vertellen dat het niet klopt. Wat als je het programma door wilt laten gaan totdat je een antwoord krijgt dat de juiste waarde heeft?
 
-You need a way to ask your question over and over until you get the right kind of answer. The way to do this in computer programming is called a **loop**. You're going to use one called the `while` loop.
+Je hebt een manier nodig om je vraag steeds opnieuw te stellen totdat je het juiste soort antwoord krijgt. De manier om dit te doen in computerprogrammeren heet een **lus**. Je gaat er één gebruiken die de `while` lus wordt genoemd.
 
-A `while` loop is a bit like an `if` statement: it has code inside it that only runs if the condition in brackets is true. The difference is that a `while` loop runs over and over, until its condition is false. You have to make sure that there always is a way out of your `while` loop, otherwise it will run forever! It looks like this:
+Een `while` lus lijkt een beetje op een `if` instructie: er zit code in die alleen wordt uitgevoerd als de voorwaarde tussen de haakjes waar is. Het verschil is dat een `while` lus herhaald wordt totdat de voorwaarde onwaar is. Je moet ervoor zorgen dat er altijd een uitweg is uit je `while` lus, anders loopt hij voor altijd! Het ziet er zo uit:
 
 ```python
-while(my_number < 100):
-    my_number = input("Hello "+name+" please pick a number that's bigger than 100")
-    my_number = int(my_number)
+while(mijn_getal < 100):
+    mijn_getal = input("Hoi "+naam+" kies een getal dat groter is dan 100")
+    mijn_getal = int(mijn_getal)
 ```
 
 --- task ---
 
-Now add a `while` loop to your program, to keep asking users for a number until they give that's lareger than 100.
+Now add a `while` loop to your program, to keep asking users for a number until they give that's larger than 100.
 
 ```python
-name = input("What is your name?")
-my_number = 0
+naam = input("Wat is je naam?")
+mijn_getal = 0
 
-# Loop as long as "my_number" is less than 100
-while(my_number < 100):
-    # Ask users for a number
-    my_number = input("Hello "+name+" please pick a number that's bigger than 100")
-    # Convert users' answer from a string to an integer
-    my_number = int(my_number)
-    print("Your number is "+str(my_number))
-    # Check if the number is bigger than 100
-    if(my_number > 100):
-        print("That's a big number!").
-    elif(my_number > 90):
-        print("Almost there! Try again!")
+# Herhaal zolang als "mijn_getal" kleiner is dan 100
+while(mijn_getal < 100):
+    # Vraag gebruikers om een getal
+    mijn_getal = input("Hoi "+naam+" kies een getal dat groter is dan 100")
+    # Converteer het antwoord van de gebruiker van een string naar een integer
+    mijn_getal = int(mijn_getal)
+    print("Je getal is "+str(mijn_getal))
+    # Controleer of het getal groter is dan 100
+    if(mijn_getal > 100):
+        print("Dat is een groot getal!").
+    elif(min_getal > 90):
+    print("Bijna klaar! Probeer het nog eens!")
     else:
-        print("That number is too small! Please try again!")
-    # If my_number is smaller than 100 at this point, loop again
+    print("Dat getal is te klein! Probeer het opnieuw!")
+    # Als mijn_getal op dit punt kleiner is dan 100, herhaal dan opnieuw
 ```
 
 --- /task ---
 
 --- collapse ---
 ---
-title: What's that extra text – is it part of the code?
+title: Wat is die extra tekst – is het onderdeel van de code?
 ---
 
-The extra lines of text that start with a `#` symbol are **commments**.
+De extra regels tekst die beginnen met een `#` symbool zijn **opmerkingen**.
 
-In most programming languages, you can write comments in your code. These are notes about what the code does that the computer will ignore. You can write them for yourself as reminders, or for other programmers who want to use your code. In Python, comments start with `#` and last to the end of the line.
+In de meeste programmeertalen kun je opmerkingen schrijven in je code. Dit zijn opmerkingen over wat de code doet, die de computer zelf negeert. Je kunt ze voor jezelf schrijven als herinneringen, of voor andere programmeurs die je code willen gebruiken. In Python beginnen opmerkingen met `#` en lopen ze tot aan het einde van de regel.
 
 --- /collapse ---
