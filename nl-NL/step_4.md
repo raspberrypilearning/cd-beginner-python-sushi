@@ -1,78 +1,78 @@
-## Talk to the user
+## Praat met de gebruiker
 
-Getting the computer to stick your name on the end of `"Hello "` is nice, but why not just write `"Hello [my name]"`? Because you don't have to know what's going to be stored in a **variable** when you write the program. You can even ask the user of the program to tell you what to put into it.
+Ervoor zorgen dat de computer je naam aan het einde van `"Hallo"` plakt, is leuk, maar waarom schrijf je niet gewoon `"Hallo [mijn naam]"`? Omdat je niet hoeft te weten wat er zal worden opgeslagen in een **variabele** wanneer je het programma schrijft. Je kunt zelfs aan de gebruiker van het programma vragen om je te vertellen wat je erin moet stoppen.
 
 --- task ---
 
-Update your Python program so that it asks the user for the text to put in the variable:
+Werk je Python-programma bij zodat het de gebruiker vraagt om de tekst die in de variabele moet worden geplaatst:
 
 ```python
-name = input("What is your name?")
-print("Hello "+name)
-print("The Code, it's calling to you. Just let it in.")
+naam = input("Wat is je naam?")
+print("Hallo "+name)
+print("De Code, hij roept naar jou. Laat het gewoon binnen.")
 ```
 
 --- /task ---
 
 --- task ---
 
-Try running it. You'll need to press the <kbd>Enter</kbd> key once you've typed in your name.
+Probeer het uit te voeren. Zodra je je naam hebt ingetypt, druk je op de <kbd>Enter</kbd> toets.
 
 --- /task ---
 
 --- task ---
 
-Now, try collecting a number from your user by changing your code to look like this:
+Probeer nu een getal op te halen bij je gebruiker door je code te wijzigen zodat die er als volgt uit ziet:
 
 ```python
-name = input("What is your name?")
-my_number = input("Hello "+name+", please pick a number")
-print("Your number is "+my_number)
+naam = input("Wat is je naam?")
+mijn_getal = input("Hoi "+naam+", kies een getal")
+print("Jouw getal is "+mijn_getal)
 ```
 
 --- /task ---
 
-Notice that you can use the `+` on both sides of a variable!
+Merk op dat je de `+` aan beide kanten van een variabele kunt gebruiken!
 
 --- task ---
 
-Run this program, answer its questions, and watch what happens.
+Voer dit programma uit, beantwoord de vragen en kijk wat er gebeurt.
 
 --- /task ---
 
-What if you want to add another number to the number stored in your new variable? Let's try that.
+Wat als je een ander getal wilt optellen bij het getal opgeslagen in je nieuwe variabele? Laten we dat proberen.
 
 --- task ---
 
-Add a line to your program that will add `1` to the `my_number` variable:
+Voeg een regel toe aan je programma die `1` optelt bij de `mijn_getal` variabele:
 
 ```python
-name = input("What is your name?")
-my_number = input("Hello "+name+" please pick a number")
-my_number = int(my_number) + 1
-print("Your number is "+str(my_number))
+naam = input("Wat is je naam?")
+mijn_getal = input("Hoi "+naam+" kies een getal")
+mijn_getal = int(mijn_getal) + 1
+print("Jouw getal is "+str(mijn_getal))
 ```
 
 --- /task ---
 
 --- collapse ---
 ---
-title: How does the new code work?
+title: Hoe werkt de nieuwe code?
 ---
 
-You've just taken a value from a variable, changed it, and stored it back in the same variable — all on the same line!
+Je hebt net de waarde van een variabele genomen, deze aangepast en weer opgeslagen in dezelfde variabele — allemaal op dezelfde regel!
 
-Now, why does the code have `int()` and `str()` around `my_number`?
+Waarom heeft de code nu `int()` en `str()` rond `mijn_getal`?
 
-It's because Python makes a difference between the number '1' it uses for maths and the number '1' it writes in a sentence. Putting `int( )` around a variable tells it to treat it as an **integer** (a maths number), and putting `str( )` around it tells it to treat it as a text **string**.
+Het is omdat Python een verschil maakt tussen het getal '1' dat het gebruikt voor wiskunde en het getal '1' dat het in een zin schrijft. `int( )` om een variabele zetten vertelt het om het te behandelen als een **integer** (een geheel getal in de wiskunde), en het plaatsen van `str( )` om een variabele heen vertelt het om het te behandelen als een **string** (een tekenreeks).
 
-**Integers** and **strings** are variable **types**, and certain pieces of code (like `+` and `print`) only work if the variables you give them are the right type.
+**Integers** en **strings ** zijn **types** variabele, en bepaalde stukjes code (zoals `+` en `print`) werken alleen als de variabelen die je geeft het juiste type zijn.
 
 --- /collapse ---
 
-### Maths in Python
+### Wiskunde in Python
 
-You've seen how to add here, but you can also:
-* Subtract using `-`
-* Multiply using `*`
-* Divide using `/`
+Je hebt hier gezien hoe je kunt optellen, maar je kunt ook:
+* Aftrekken met `-`
+* Vermenigvuldigen met `*`
+* Delen met `/`
