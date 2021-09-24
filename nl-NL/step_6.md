@@ -12,13 +12,13 @@ if(mijn_getal >= 20 and mijn_getal < 30):
 Of bijvoorbeeld:
 
 ```python
-if (eten == "Cake" of eten == "Chocolade" or eten == "Taart"):
+if (eten == "Cake" of eten == "Chocolade" of eten == "Taart"):
     print ("Klinkt lekker!")
 ```
 
 --- task ---
 
-Controleer of het gebruikersgetal groter is dan 100. Vervolgens feliciteer je de gebruiker met het geven van een getal dat groot genoeg is, of vertel je hem dat hij geen getal heeft gekozen dat groot genoeg is.
+Controleer of het getal dat de gebruiker geeft groter is dan 100. Vervolgens feliciteer je de gebruiker met het geven van een getal dat groot genoeg is, of vertel je hem dat het door hem gekozen getal niet groot genoeg is.
 
 Probeer dit:
 
@@ -40,15 +40,15 @@ De code binnen de `else` instructie wordt uitgevoerd wanneer de voorwaarde tusse
 
 ### Meer voorwaarden
 
-Wat als je de gebruiker wilt vertellen wanneer ze dichtbij zijn, bijvoorbeeld als ze een getal boven de `90` hebben gepakt?
+Wat als je de gebruiker wilt vertellen wanneer ze dichtbij zijn, bijvoorbeeld als ze een getal boven de `90` hebben ingevoerd?
 
-Dan kun je een `elif` instructie gebruiken! Die naam zijn de woorden 'else' en 'if' aan elkaar geplakt. De code binnen een `elif` instructie wordt alleen uitgevoerd als de voorwaarde in de `if` instructie _niet_ waar is **en** de conditie tussen de haakjes van de `elif` instructie _wel_ waar is.
+Dan kun je een `elif` instructie gebruiken! Die naam zijn de woorden 'else' en 'if' aan elkaar geplakt. De code binnen een `elif` instructie wordt alleen uitgevoerd als de voorwaarde in de `if` instructie _niet_ waar is **en** de voorwaarde tussen de haakjes van de `elif` instructie _wel_ waar is.
 
 Dit is wat je toevoegt om ervoor te zorgen dat het programma de gebruiker vertelt dat ze dichtbij zijn:
 
 ```python
 elif(min_getal > 90):
-    print("Bijna klaar!")
+    print("Je bent er bijna!")
 ```
 
 --- task ---
@@ -63,8 +63,8 @@ print("Je getal is" + str(mijn_getal))
 
 if (mijn_getal > 100):
     print("Dat is een groot getal!")
-elif(min_getal > 90):
-    print("Bijna klaar!")
+elif(mijn_getal > 90):
+    print("Je bent er bijna!")
 else:
     print("Dat getal is te klein!")
 ```
