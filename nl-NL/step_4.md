@@ -1,6 +1,6 @@
 ## Praat met de gebruiker
 
-Ervoor zorgen dat de computer je naam aan het einde van `"Hallo"` plakt, is leuk, maar waarom schrijf je niet gewoon `"Hallo [mijn naam]"`? Omdat je niet hoeft te weten wat er zal worden opgeslagen in een **variabele** wanneer je het programma schrijft. Je kunt zelfs aan de gebruiker van het programma vragen om je te vertellen wat je erin moet stoppen.
+De computer je naam aan het einde van `"Hallo"` laten plakken, is leuk, maar waarom schrijf je niet gewoon `"Hallo [mijn naam]"`? Omdat je niet hoeft te weten wat er zal worden opgeslagen in een **variabele** wanneer je het programma schrijft. Je kunt zelfs aan de gebruiker van het programma vragen welke naam moet worden opgeslagen in de variabele.
 
 --- task ---
 
@@ -9,7 +9,7 @@ Werk je Python-programma bij zodat het de gebruiker vraagt om de tekst die in de
 ```python
 naam = input("Wat is je naam?")
 print("Hallo "+name)
-print("De Code, hij roept naar jou. Laat het gewoon binnen.")
+print("De Code roept je. Laat het maar binnen.")
 ```
 
 --- /task ---
@@ -22,7 +22,7 @@ Probeer het uit te voeren. Zodra je je naam hebt ingetypt, druk je op de <kbd>En
 
 --- task ---
 
-Probeer nu een getal op te halen bij je gebruiker door je code te wijzigen zodat die er als volgt uit ziet:
+Probeer nu een getal op te vragen bij je gebruiker door je code te wijzigen zodat die er als volgt uit ziet:
 
 ```python
 naam = input("Wat is je naam?")
@@ -40,7 +40,7 @@ Voer dit programma uit, beantwoord de vragen en kijk wat er gebeurt.
 
 --- /task ---
 
-Wat als je een ander getal wilt optellen bij het getal opgeslagen in je nieuwe variabele? Laten we dat proberen.
+Wat als je een ander getal wilt optellen bij het getal dat opgeslagen is in je nieuwe variabele? Laten we dat proberen.
 
 --- task ---
 
@@ -64,7 +64,7 @@ Je hebt net de waarde van een variabele genomen, deze aangepast en weer opgeslag
 
 Waarom heeft de code nu `int()` en `str()` rond `mijn_getal`?
 
-Het is omdat Python een verschil maakt tussen het getal '1' dat het gebruikt voor wiskunde en het getal '1' dat het in een zin schrijft. `int( )` om een variabele zetten vertelt het om het te behandelen als een **integer** (een geheel getal in de wiskunde), en het plaatsen van `str( )` om een variabele heen vertelt het om het te behandelen als een **string** (een tekenreeks).
+Dat is omdat Python een verschil maakt tussen het getal '1' dat het gebruikt voor wiskunde en het getal '1' dat het als tekst in een zin schrijft. `int( )` om een variabele zetten vertelt het om het te behandelen als een **integer** (een geheel getal in de wiskunde), en het plaatsen van `str( )` om een variabele heen vertelt het om het te behandelen als een **string** (een tekenreeks).
 
 **Integers** en **strings** zijn **types** variabele, en bepaalde stukjes code (zoals `+` en `print`) werken alleen als de variabelen die je geeft het juiste type zijn.
 
