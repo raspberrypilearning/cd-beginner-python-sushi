@@ -30,11 +30,11 @@ while(mijn_getal < 100):
     # Controleer of het getal groter is dan 100
     if(mijn_getal > 100):
         print("Dat is een groot getal!").
-    elif(min_getal > 90):
+    elif(mijn_getal > 90):
     print("Bijna klaar! Probeer het nog eens!")
     else:
     print("Dat getal is te klein! Probeer het opnieuw!")
-    # Als mijn_getal op dit punt kleiner is dan 100, herhaal dan opnieuw
+    # Als mijn_getal kleiner is dan 100, herhaal dan opnieuw
 ```
 
 --- /task ---
