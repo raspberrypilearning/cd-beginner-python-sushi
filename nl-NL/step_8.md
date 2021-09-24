@@ -1,7 +1,7 @@
 ## Maak een spel om getallen te raden
 
 Dus je hebt nu geleerd over:
-  * `druk` instructies uit om met je gebruikers te praten
+  * `print` instructies uit om met je gebruikers te praten
   * variabelen, die een manier zijn om ons programma waarden te laten onthouden en bij te werken
   * strings, die stukjes tekst zijn
   * `input` voor het verkrijgen van informatie van onze gebruiker
@@ -20,7 +20,7 @@ Je kunt deze tools en commando's gebruiken om dit spel te maken:
 
 Je kunt een voorbeeld van het spel spelen op [dojo.soy/py-dice](http://dojo.soy/py-dice){:target="blank"}.
 
-Je mist maar één ding om dit spel te kunnen schrijven: een manier om een willekeurig getal tussen 1 en 9 te krijgen. De code om dit te doen gaat iets verder dan wat we tot nu toe hebben behandeld, maar je kunt deze nu gebruiken zonder precies te begrijpen hoe het werkt.
+Je mist nog maar één ding om dit spel te kunnen schrijven: een manier om een willekeurig getal tussen 1 en 9 te krijgen. De code om dit te doen gaat iets verder dan wat we tot nu toe hebben behandeld, maar je kunt deze nu gebruiken zonder precies te begrijpen hoe het werkt.
 
 --- task ---
 
