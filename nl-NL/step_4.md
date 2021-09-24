@@ -74,5 +74,5 @@ Dat is omdat Python een verschil maakt tussen het getal '1' dat het gebruikt voo
 
 Je hebt hier gezien hoe je kunt optellen, maar je kunt ook:
 * Aftrekken met `-`
-*Vermenigvuldigen met `*`
+* Vermenigvuldigen met `*`
 * Delen met `/`
