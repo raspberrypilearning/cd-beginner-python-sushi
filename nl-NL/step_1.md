@@ -18,7 +18,7 @@ Je maakt een raadspel waarbij de computer een getal tussen 1 en 9 kiest, en de s
 title: Wat ga je leren
 ---
 
-+ Tekst afdrukken op het scherm
++ Tekst tonen op het scherm
 + Basis van strings samenvoegen (inclusief het gebruik van `str()` om getallen om te zetten)
 + Tekst en getallen opslaan in variabelen
 + Gebruikersinvoer ophalen (inclusief `int()` om getallen te converteren)
