@@ -1,17 +1,20 @@
+---
 title: Guess the number
 hero_image: images/banner.png
 description: Learn how to code with Python and make a guessing game
 version: 4
 listed: true
 copyedit: true
-last_tested: "2018-06-05"
+last_tested: '2018-06-05'
 steps:
-  - title: Introduction
-  - title: Running your program
-  - title: Your first Python program
-  - title: Talk to the user
-  - title: Compare and check things
-  - title: Check more than one thing
-  - title: Keep asking
-  - title: "Challenge: Let's make a game!"
-    challenge: true
+- title: Introduction
+  completion: engaged
+- title: Running your program
+- title: Your first Python program
+- title: Talk to the user
+- title: Compare and check things
+- title: Check more than one thing
+  completion: internal
+- title: Keep asking
+- title: 'Challenge: Let''s make a game!'
+  challenge: true
