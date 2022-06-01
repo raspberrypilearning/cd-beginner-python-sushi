@@ -5,14 +5,18 @@ description: Leer coderen met Python en maak een raadspel
 version: 4
 listed: true
 copyedit: true
-last_tested: "2018-06-05"
+last_tested: '2018-06-05'
 steps:
-  - title: Inleiding
-  - title: Je programma uitvoeren
-  - title: Je eerste Python-programma
-  - title: Praat met de gebruiker
-  - title: Vergelijk en controleer dingen
-  - title: Controleer meer dan één ding
-  - title: Blijf vragen
-  - title: "Uitdaging: laten we een spel maken!"
-    challenge: true
+- title: Inleiding
+- title: Je programma uitvoeren
+- title: Je eerste Python-programma
+  completion:
+  - engaged
+- title: Praat met de gebruiker
+- title: Vergelijk en controleer dingen
+- title: Controleer meer dan één ding
+- title: Blijf vragen
+  completion:
+  - internal
+- title: 'Uitdaging: laten we een spel maken!'
+  challenge: true
