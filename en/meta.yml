@@ -8,13 +8,15 @@ copyedit: true
 last_tested: '2018-06-05'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Running your program
 - title: Your first Python program
+  completion:
+  - engaged
 - title: Talk to the user
 - title: Compare and check things
 - title: Check more than one thing
-  completion: internal
 - title: Keep asking
+  completion:
+  - internal
 - title: 'Challenge: Let''s make a game!'
   challenge: true

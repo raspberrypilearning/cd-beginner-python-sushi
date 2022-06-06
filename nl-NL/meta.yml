@@ -8,13 +8,15 @@ copyedit: true
 last_tested: '2018-06-05'
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Je programma uitvoeren
 - title: Je eerste Python-programma
+  completion:
+  - engaged
 - title: Praat met de gebruiker
 - title: Vergelijk en controleer dingen
 - title: Controleer meer dan één ding
-  completion: internal
 - title: Blijf vragen
+  completion:
+  - internal
 - title: 'Uitdaging: laten we een spel maken!'
   challenge: true

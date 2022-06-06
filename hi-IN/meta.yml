@@ -8,13 +8,15 @@ copyedit: true
 last_tested: '2018-06-05'
 steps:
 - title: परिचय
-  completion: engaged
 - title: अपने प्रोग्राम को run करें
 - title: आपका पहला Python प्रोग्राम (program)
+  completion:
+  - engaged
 - title: उपयोगकर्ता से बात करें
 - title: चीजों की तुलना और जांच करें
 - title: एक से अधिक स्ट्रिंग (string) की जांच करें
-  completion: internal
 - title: पूछते रहिये
+  completion:
+  - internal
 - title: 'चुनौती: चलिए एक खेल बनाते हैं!'
   challenge: true
